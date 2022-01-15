@@ -1,0 +1,17 @@
+{
+  "name": "smart",
+  "version": "1.0.0",
+  "author": "reco_luan",
+  "scripts": {
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build docs"
+  },
+  "devDependencies": {
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.10"
+  },
+  "description": "小圆的博客",
+  "dependencies": {
+    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7"
+  }
+}
