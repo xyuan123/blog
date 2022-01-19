@@ -1,10 +1,10 @@
 {
-  "name": "smart",
+  "name": "smartx",
   "version": "1.0.0",
   "author": "reco_luan",
   "scripts": {
-    "dev": "vuepress dev . --open --host \"localhost\"",
-    "build": "vuepress build docs"
+    "serve": "vuepress dev . --open --host \"localhost\" --temp .temp",
+    "build": "vuepress build ."
   },
   "devDependencies": {
     "vuepress": "1.8.2",

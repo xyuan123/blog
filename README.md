@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: smartx
-tagline: 杨柳依 轻呷这春光恐君带不去
+heroText: 夏鸣予
+tagline: 无奈涧水何,喧喧夜鸣石。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',

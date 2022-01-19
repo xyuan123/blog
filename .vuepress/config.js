@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "小圆的博客",
-  "description": "'小圆的博客'",
+  "title": "夏鸣予的博客",
+  "description": "永远怀着一刻真诚与善良的心",
   "dest": "public",
   "head": [
     [
@@ -20,8 +20,8 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
-    author: '细雪之舞',
-    huawei: true,
+    "author": "夏鸣予",
+    "huawei": true,
     "nav": [
       {
         "text": "首页",
@@ -34,30 +34,24 @@ module.exports = {
         "icon": "reco-date"
       },
       {
-        "text": "Docs",
+        "text": "留言板",
         "icon": "reco-message",
-        "items": [
-          {
-            "text": "vuepress-reco",
-            "link": "/docs/theme-reco/"
-          }
-        ]
+        "link": '/messageBoard'
       },
       {
         "text": "Contact",
         "icon": "reco-message",
         "items": [
           {
-            "text": "GitHub",
-            "link": "https://github.com/recoluan",
-            "icon": "reco-github"
+            "text": "gitee",
+            "link": "https://gitee.com/smart-x",
           }
         ]
       }
     ],
-    valineConfig: {
-      appId: '3LHlTn3FClOQQwfLAMUuucTc-gzGzoHsz',// your appId
-      appKey: 'xp6lSBicUhJOY3LLQIEPIYEv', // your appKey
+    "valineConfig": {
+      "appId": '3LHlTn3FClOQQwfLAMUuucTc-gzGzoHsz',// your appId
+      "appKey": 'xp6lSBicUhJOY3LLQIEPIYEv', // your appKey
     },
     "sidebar": {
       "/docs/theme-reco/": [
@@ -96,7 +90,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "夏圆",
+    "author": "夏鸣予",
     "authorAvatar": "/avatar.png",
     "record": "xxxx",
     "startYear": "2017"
