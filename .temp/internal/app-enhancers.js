@@ -12,6 +12,8 @@ import m10 from "E:\\小圆的前端学习\\vue项目\\blog\\.temp\\app-enhancer
 import m11 from "E:\\小圆的前端学习\\vue项目\\blog\\.temp\\app-enhancers\\8.js"
 import m12 from "E:\\小圆的前端学习\\vue项目\\blog\\.temp\\app-enhancers\\9.js"
 import m13 from "E:\\小圆的前端学习\\vue项目\\blog\\.temp\\app-enhancers\\10.js"
+import m14 from "E:\\小圆的前端学习\\vue项目\\blog\\.temp\\app-enhancers\\11.js"
+import m15 from "E:\\小圆的前端学习\\vue项目\\blog\\.temp\\app-enhancers\\12.js"
 
 export default [
   m0,
@@ -27,5 +29,7 @@ export default [
   m10,
   m11,
   m12,
-  m13
+  m13,
+  m14,
+  m15
 ]

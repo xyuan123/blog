@@ -3,7 +3,7 @@ title: 我的个人简介
 date: 2022-01-14
 author: 夏鸣予
 tags:
-- 个人简介
+- introduce
 sticky: 1
 
 ---
@@ -46,7 +46,13 @@ sticky: 1
 
 <img src="../../.vuepress/public/introduce/lol_rank.png" alt="加载失败" style="zoom: 50%;display:block;float:none" align="left"/>
 
-  
+逛: 除了**湖滨银泰**能让我有逛一天的欲望之外,好像没发现有什么地方能我很喜欢去待。如果你在杭州工作或者上学的话,推荐你去**湖滨银泰**逛一逛,我觉得那里无论地上还是地下。都是很值得去看一看的。听说8点半还有音乐喷泉,不过我没见过。不知道我有生之年能不能看到一次。
+
+<img src="../../.vuepress/public/introduce/yintai.jpg" alt="加载失败" style="zoom: 10%;display:block;float:none" align="left"/>
+
+
+
+  怎么样,是不是很漂亮。
 
 ## 结束语
 

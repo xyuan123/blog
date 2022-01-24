@@ -9,14 +9,6 @@ import GlobalLayout from "E:\\小圆的前端学习\\vue项目\\blog\\node_modul
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-53ecae5b",
-    path: "/blogs/category/ES6/092101.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-53ecae5b").then(next)
-    },
-  },
-  {
     name: "v-f1694f66",
     path: "/",
     component: GlobalLayout,
@@ -29,19 +21,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-eb3e21ca",
-    path: "/blogs/category/Vue/transferParams.html",
+    name: "v-b413a096",
+    path: "/blogs/category/ES6/generator.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-eb3e21ca").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-b413a096").then(next)
     },
   },
   {
-    name: "v-706f62a5",
-    path: "/blogs/category/markdown/front_matter.html",
+    name: "v-9e11ec96",
+    path: "/blogs/category/Vue/dynamicComponents.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-706f62a5").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-9e11ec96").then(next)
     },
   },
   {
@@ -53,19 +45,35 @@ export const routes = [
     },
   },
   {
-    name: "v-0b736d3b",
-    path: "/blogs/category/ES6/121501.html",
+    name: "v-dda97aca",
+    path: "/blogs/category/Vue/vueCss.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0b736d3b").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-dda97aca").then(next)
     },
   },
   {
-    name: "v-d084738a",
-    path: "/blogs/category/git/gitcmd.html",
+    name: "v-eb3e21ca",
+    path: "/blogs/category/Vue/transferParams.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d084738a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-eb3e21ca").then(next)
+    },
+  },
+  {
+    name: "v-71d07c7b",
+    path: "/blogs/category/Vue/vuex.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-71d07c7b").then(next)
+    },
+  },
+  {
+    name: "v-e5172948",
+    path: "/messageBoard.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e5172948").then(next)
     },
   },
   {
@@ -77,40 +85,155 @@ export const routes = [
     },
   },
   {
-    name: "v-7b572edd",
-    path: "/docs/theme-reco/",
+    name: "v-d084738a",
+    path: "/blogs/category/git/gitcmd.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7b572edd").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d084738a").then(next)
     },
   },
   {
-    path: "/docs/theme-reco/index.html",
-    redirect: "/docs/theme-reco/"
-  },
-  {
-    name: "v-6e772864",
-    path: "/docs/theme-reco/api.html",
+    name: "v-b1564aac",
+    path: "/tag/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e772864").then(next)
+      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
     },
+    meta: {"pid":"tags","id":"tags"}
   },
   {
-    name: "v-ef33d724",
-    path: "/docs/theme-reco/theme.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-ef33d724").then(next)
-    },
+    path: "/tag/index.html",
+    redirect: "/tag/"
   },
   {
-    name: "v-71201c64",
-    path: "/docs/theme-reco/plugin.html",
+    name: "v-ef9325c4",
+    path: "/categories/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-71201c64").then(next)
+      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
     },
+    meta: {"pid":"categories","id":"categories"}
+  },
+  {
+    path: "/categories/index.html",
+    redirect: "/categories/"
+  },
+  {
+    name: "v-6319eb4e",
+    path: "/timeline/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
+    },
+    meta: {"pid":"timeline","id":"timeline"}
+  },
+  {
+    path: "/timeline/index.html",
+    redirect: "/timeline/"
+  },
+  {
+    name: "v-3257dcde",
+    path: "/tag/ES6/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-3257dcde").then(next)
+    },
+    meta: {"pid":"tags","id":"ES6"}
+  },
+  {
+    path: "/tag/ES6/index.html",
+    redirect: "/tag/ES6/"
+  },
+  {
+    name: "v-7a5f6990",
+    path: "/tag/JavaScript/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-7a5f6990").then(next)
+    },
+    meta: {"pid":"tags","id":"JavaScript"}
+  },
+  {
+    path: "/tag/JavaScript/index.html",
+    redirect: "/tag/JavaScript/"
+  },
+  {
+    name: "v-32475d9a",
+    path: "/tag/Vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-32475d9a").then(next)
+    },
+    meta: {"pid":"tags","id":"Vue"}
+  },
+  {
+    path: "/tag/Vue/index.html",
+    redirect: "/tag/Vue/"
+  },
+  {
+    name: "v-79a2a91a",
+    path: "/tag/introduce/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-79a2a91a").then(next)
+    },
+    meta: {"pid":"tags","id":"introduce"}
+  },
+  {
+    path: "/tag/introduce/index.html",
+    redirect: "/tag/introduce/"
+  },
+  {
+    name: "v-32383f72",
+    path: "/tag/git/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-32383f72").then(next)
+    },
+    meta: {"pid":"tags","id":"git"}
+  },
+  {
+    path: "/tag/git/index.html",
+    redirect: "/tag/git/"
+  },
+  {
+    name: "v-7eff4a05",
+    path: "/categories/ES6/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7eff4a05").then(next)
+    },
+    meta: {"pid":"categories","id":"ES6"}
+  },
+  {
+    path: "/categories/ES6/index.html",
+    redirect: "/categories/ES6/"
+  },
+  {
+    name: "v-7f0789a7",
+    path: "/categories/Vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f0789a7").then(next)
+    },
+    meta: {"pid":"categories","id":"Vue"}
+  },
+  {
+    path: "/categories/Vue/index.html",
+    redirect: "/categories/Vue/"
+  },
+  {
+    name: "v-7f008cdb",
+    path: "/categories/Git/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f008cdb").then(next)
+    },
+    meta: {"pid":"categories","id":"Git"}
+  },
+  {
+    path: "/categories/Git/index.html",
+    redirect: "/categories/Git/"
   },
   {
     path: '*',

@@ -3,12 +3,20 @@
  */
 export default {
   "tags": {
-    "tag1": {
-      "key": "tag1",
+    "ES6": {
+      "key": "ES6",
       "scope": "tags",
-      "path": "/tag/tag1/",
+      "path": "/tag/ES6/",
       "pageKeys": [
-        "v-0b736d3b"
+        "v-b413a096"
+      ]
+    },
+    "JavaScript": {
+      "key": "JavaScript",
+      "scope": "tags",
+      "path": "/tag/JavaScript/",
+      "pageKeys": [
+        "v-b413a096"
       ]
     },
     "Vue": {
@@ -16,14 +24,17 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
+        "v-9e11ec96",
         "v-08f12e1b",
-        "v-eb3e21ca"
+        "v-dda97aca",
+        "v-eb3e21ca",
+        "v-71d07c7b"
       ]
     },
-    "个人简介": {
-      "key": "个人简介",
+    "introduce": {
+      "key": "introduce",
       "scope": "tags",
-      "path": "/tag/个人简介/",
+      "path": "/tag/introduce/",
       "pageKeys": [
         "v-8cfa1d18"
       ]
@@ -43,8 +54,7 @@ export default {
       "scope": "categories",
       "path": "/categories/ES6/",
       "pageKeys": [
-        "v-0b736d3b",
-        "v-53ecae5b"
+        "v-b413a096"
       ]
     },
     "Vue": {
@@ -52,8 +62,11 @@ export default {
       "scope": "categories",
       "path": "/categories/Vue/",
       "pageKeys": [
+        "v-9e11ec96",
         "v-08f12e1b",
-        "v-eb3e21ca"
+        "v-dda97aca",
+        "v-eb3e21ca",
+        "v-71d07c7b"
       ]
     },
     "Git": {

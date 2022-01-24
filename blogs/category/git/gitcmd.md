@@ -17,7 +17,7 @@ sticky: 2
 
 <!-- more -->
 
-### 添加暂存区
+
 
 ```
 git add .
@@ -48,10 +48,16 @@ git push origin master
 git remote -v
 ```
 
-### 撤销git add .
+### 撤销本次git add .
 
 ```
 git reset head
+```
+
+### 撤销本次git commit不撤销add
+
+```git
+git reset --soft HEAD^
 ```
 
 ### git 移除
@@ -121,7 +127,15 @@ git push
 下班
 ```
 
+## 遇到的一些问题
 
+有时候二次git push会出现以下问题
+
+<img src="../../../.vuepress/public/git/git_push_reject.png" alt="加载失败" style="zoom: 100%;float:none" align="left"/>
+
+这个时候按提示输入`git push --set-upstream origin 远程分支名字 `关联一下,以后再输入git push就不会报错了
+
+待补充。。。。。。。。
 
 ## 结束语
 

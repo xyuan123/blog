@@ -2,6 +2,35 @@ module.exports = {
   "title": "夏鸣予的博客",
   "description": "永远怀着一刻真诚与善良的心",
   "dest": "public",
+  "plugins": [['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
+    theme: ['z16','miku','wanko','shizuku', 'izumi','koharu','haruto','blackCat', 'whiteCat', 'haru1', 'haru2'],
+    message:  {
+      welcome: '欢迎来到我的博客~',
+      home: '心里的花，我想要带你回家。',
+      theme: '好吧，希望你能喜欢我的其他小伙伴。',
+      close: '要说再见了吗'
+  } }],['@vuepress-reco/vuepress-plugin-bgm-player', {
+    audios: [
+      {
+        name: '花之舞',
+        artist: '花之舞',
+        url: '/bgm/1.mp3',
+        cover: '/bgm/1.png'
+      }
+    ],
+    position: {
+      left: '10px',
+      bottom: '10px',
+      'z-index': '999999'
+    },
+    autoShrink: false,
+    shrinkMode: 'mini',
+    floatPosition: 'left',
+    floatStyle: {
+      bottom: '200px',
+      'z-index': '999999'
+    }
+  }]],
   "head": [
     [
       "link",

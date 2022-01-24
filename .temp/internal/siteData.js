@@ -23,32 +23,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "second page in category1",
-      "frontmatter": {
-        "title": "second page in category1",
-        "date": "2019-09-21T00:00:00.000Z",
-        "tags": [
-          null
-        ],
-        "categories": [
-          "ES6"
-        ]
-      },
-      "regularPath": "/blogs/category/ES6/092101.html",
-      "relativePath": "blogs/category/ES6/092101.md",
-      "key": "v-53ecae5b",
-      "path": "/blogs/category/ES6/092101.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "markdown正文",
-          "slug": "markdown正文"
-        }
-      ],
-      "excerpt": "<hr>\n<p>title: Vuepress使用指南(reco)\ndate: 2020-08-16\nsidebar: 'auto'\ncategories:</p>\n<ul>\n<li>工具\ntags:</li>\n<li>vue\npublish: true</li>\n</ul>\n<hr>\n<div class=\"custom-block tip\"><p class=\"title\"></p><p>Vuepress是Vue作者尤雨溪开发的文档工具，本文采用Vuepress的reco主题进行相关配置说明</p>\n</div>",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -79,7 +53,175 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-f1694f66",
       "path": "/",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "lastUpdated": "1/19/2022, 4:27:50 PM"
+    },
+    {
+      "title": "ES6学习之路(一) Generator函数",
+      "frontmatter": {
+        "title": "ES6学习之路(一) Generator函数",
+        "date": "2022-01-5",
+        "tags": [
+          "ES6",
+          "JavaScript"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/generator.html",
+      "relativePath": "blogs/category/ES6/generator.md",
+      "key": "v-b413a096",
+      "path": "/blogs/category/ES6/generator.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 3,
+          "title": "主角",
+          "slug": "主角"
+        },
+        {
+          "level": 3,
+          "title": "next函数传参",
+          "slug": "next函数传参"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于ES6generator函数的知识o(￣▽￣)ｄ</p>\n</div>"
+    },
+    {
+      "title": "让我的Vue得到重生(四)-Vue的动态组件",
+      "frontmatter": {
+        "title": "让我的Vue得到重生(四)-Vue的动态组件",
+        "date": "2022-01-22T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
+      "relativePath": "blogs/category/Vue/dynamicComponents.md",
+      "key": "v-9e11ec96",
+      "path": "/blogs/category/Vue/dynamicComponents.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 3,
+          "title": "解释",
+          "slug": "解释"
+        },
+        {
+          "level": 2,
+          "title": "使用keep-alive组件缓存部分动态组件",
+          "slug": "使用keep-alive组件缓存部分动态组件"
+        },
+        {
+          "level": 2,
+          "title": "动态组件传参",
+          "slug": "动态组件传参"
+        },
+        {
+          "level": 2,
+          "title": "小细节",
+          "slug": "小细节"
+        },
+        {
+          "level": 2,
+          "title": "哲学时刻",
+          "slug": "哲学时刻"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>"
+    },
+    {
+      "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
+      "frontmatter": {
+        "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
+        "date": "2022-01-07T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ],
+        "sticky": 3
+      },
+      "regularPath": "/blogs/category/Vue/vueInstall.html",
+      "relativePath": "blogs/category/Vue/vueInstall.md",
+      "key": "v-08f12e1b",
+      "path": "/blogs/category/Vue/vueInstall.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        },
+        {
+          "level": 2,
+          "title": "鸡汤时刻",
+          "slug": "鸡汤时刻"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>",
+      "lastUpdated": "1/19/2022, 4:27:50 PM"
+    },
+    {
+      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+      "frontmatter": {
+        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+        "date": "2022-01-24T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/vueCss.html",
+      "relativePath": "blogs/category/Vue/vueCss.md",
+      "key": "v-dda97aca",
+      "path": "/blogs/category/Vue/vueCss.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "教程",
+          "slug": "教程"
+        },
+        {
+          "level": 2,
+          "title": "哲学时刻",
+          "slug": "哲学时刻"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>"
     },
     {
       "title": "让我的Vue得到重生(二)-Vue传参",
@@ -164,33 +306,25 @@ export const siteData = {
           "slug": "鸡汤时刻"
         }
       ],
-      "excerpt": "<h2 id=\"前奏\"><a class=\"header-anchor\" href=\"#前奏\">#</a> 前奏</h2>\n<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中路由传参的文章o(<strong>￣︶￣</strong>)o</p>\n</div>"
+      "excerpt": "<h2 id=\"前奏\"><a class=\"header-anchor\" href=\"#前奏\">#</a> 前奏</h2>\n<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中路由传参的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
+      "lastUpdated": "1/19/2022, 4:27:50 PM"
     },
     {
-      "title": "什么是front-matter",
-      "frontmatter": {},
-      "regularPath": "/blogs/category/markdown/front_matter.html",
-      "relativePath": "blogs/category/markdown/front_matter.md",
-      "key": "v-706f62a5",
-      "path": "/blogs/category/markdown/front_matter.html"
-    },
-    {
-      "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
+      "title": "让我的Vue得到重生(三)-与vuex来一次邂逅",
       "frontmatter": {
-        "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
-        "date": "2022-01-07T00:00:00.000Z",
+        "title": "让我的Vue得到重生(三)-与vuex来一次邂逅",
+        "date": "2022-01-19T00:00:00.000Z",
         "tags": [
           "Vue"
         ],
         "categories": [
           "Vue"
-        ],
-        "sticky": 3
+        ]
       },
-      "regularPath": "/blogs/category/Vue/vueInstall.html",
-      "relativePath": "blogs/category/Vue/vueInstall.md",
-      "key": "v-08f12e1b",
-      "path": "/blogs/category/Vue/vueInstall.html",
+      "regularPath": "/blogs/category/Vue/vuex.html",
+      "relativePath": "blogs/category/Vue/vuex.md",
+      "key": "v-71d07c7b",
+      "path": "/blogs/category/Vue/vuex.html",
       "headers": [
         {
           "level": 2,
@@ -204,34 +338,62 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "总结",
-          "slug": "总结"
+          "title": "State",
+          "slug": "state"
+        },
+        {
+          "level": 3,
+          "title": "1.mapState辅助函数",
+          "slug": "_1-mapstate辅助函数"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>最是人间留不住，朱辞颜镜花辞树，与vuex来一次完美的邂逅吧!o(<strong>￣︶￣</strong>)o</p>\n</div>"
+    },
+    {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2022-01-05T00:00:00.000Z"
+      },
+      "regularPath": "/messageBoard.html",
+      "relativePath": "messageBoard.md",
+      "key": "v-e5172948",
+      "path": "/messageBoard.html"
+    },
+    {
+      "title": "我的个人简介",
+      "frontmatter": {
+        "title": "我的个人简介",
+        "date": "2022-01-14T00:00:00.000Z",
+        "author": "夏鸣予",
+        "tags": [
+          "introduce"
+        ],
+        "sticky": 1
+      },
+      "regularPath": "/blogs/introduce/introduce.html",
+      "relativePath": "blogs/introduce/introduce.md",
+      "key": "v-8cfa1d18",
+      "path": "/blogs/introduce/introduce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "个人经历与简介",
+          "slug": "个人经历与简介"
         },
         {
           "level": 2,
-          "title": "鸡汤时刻",
-          "slug": "鸡汤时刻"
+          "title": "爱好",
+          "slug": "爱好"
+        },
+        {
+          "level": 2,
+          "title": "结束语",
+          "slug": "结束语"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>"
-    },
-    {
-      "title": "first page in category1",
-      "frontmatter": {
-        "title": "first page in category1",
-        "date": "2018-12-15T00:00:00.000Z",
-        "tags": [
-          "tag1"
-        ],
-        "categories": [
-          "ES6"
-        ]
-      },
-      "regularPath": "/blogs/category/ES6/121501.html",
-      "relativePath": "blogs/category/ES6/121501.md",
-      "key": "v-0b736d3b",
-      "path": "/blogs/category/ES6/121501.html",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>赏脸看看作者的个人简介把(￣︶￣)&gt;</p>\n</div>",
+      "lastUpdated": "1/19/2022, 4:27:50 PM"
     },
     {
       "title": "git常用命令",
@@ -251,11 +413,6 @@ export const siteData = {
       "key": "v-d084738a",
       "path": "/blogs/category/git/gitcmd.html",
       "headers": [
-        {
-          "level": 3,
-          "title": "添加暂存区",
-          "slug": "添加暂存区"
-        },
         {
           "level": 3,
           "title": "提交本地仓库",
@@ -278,8 +435,13 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "撤销git add .",
-          "slug": "撤销git-add"
+          "title": "撤销本次git add .",
+          "slug": "撤销本次git-add"
+        },
+        {
+          "level": 3,
+          "title": "撤销本次git commit不撤销add",
+          "slug": "撤销本次git-commit不撤销add"
         },
         {
           "level": 3,
@@ -318,6 +480,11 @@ export const siteData = {
         },
         {
           "level": 2,
+          "title": "遇到的一些问题",
+          "slug": "遇到的一些问题"
+        },
+        {
+          "level": 2,
           "title": "结束语",
           "slug": "结束语"
         },
@@ -328,89 +495,106 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于git常用命令的文档o(￣▽￣)ｄ</p>\n</div>",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "lastUpdated": "1/19/2022, 4:27:50 PM"
     },
     {
-      "title": "我的个人简介",
       "frontmatter": {
-        "title": "我的个人简介",
-        "date": "2022-01-14T00:00:00.000Z",
-        "author": "夏鸣予",
-        "tags": [
-          "个人简介"
-        ],
-        "sticky": 1
+        "layout": "Tags",
+        "title": "Tags"
       },
-      "regularPath": "/blogs/introduce/introduce.html",
-      "relativePath": "blogs/introduce/introduce.md",
-      "key": "v-8cfa1d18",
-      "path": "/blogs/introduce/introduce.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "个人经历与简介",
-          "slug": "个人经历与简介"
-        },
-        {
-          "level": 2,
-          "title": "爱好",
-          "slug": "爱好"
-        },
-        {
-          "level": 2,
-          "title": "结束语",
-          "slug": "结束语"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>赏脸看看作者的个人简介把(￣︶￣)&gt;</p>\n</div>"
+      "regularPath": "/tag/",
+      "key": "v-b1564aac",
+      "path": "/tag/"
     },
     {
-      "title": "theme-reco",
       "frontmatter": {
-        "title": "theme-reco",
-        "date": "2020-05-29T00:00:00.000Z"
+        "layout": "FrontmatterKey",
+        "title": "Categories"
       },
-      "regularPath": "/docs/theme-reco/",
-      "relativePath": "docs/theme-reco/README.md",
-      "key": "v-7b572edd",
-      "path": "/docs/theme-reco/",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "regularPath": "/categories/",
+      "key": "v-ef9325c4",
+      "path": "/categories/"
     },
     {
-      "title": "api",
       "frontmatter": {
-        "title": "api",
-        "date": "2020-05-29T00:00:00.000Z"
+        "layout": "TimeLines",
+        "title": "Timeline"
       },
-      "regularPath": "/docs/theme-reco/api.html",
-      "relativePath": "docs/theme-reco/api.md",
-      "key": "v-6e772864",
-      "path": "/docs/theme-reco/api.html",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
     },
     {
-      "title": "theme",
       "frontmatter": {
-        "title": "theme",
-        "date": "2020-05-27T00:00:00.000Z"
+        "layout": "Tag",
+        "title": "ES6 Tags"
       },
-      "regularPath": "/docs/theme-reco/theme.html",
-      "relativePath": "docs/theme-reco/theme.md",
-      "key": "v-ef33d724",
-      "path": "/docs/theme-reco/theme.html",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "regularPath": "/tag/ES6/",
+      "key": "v-3257dcde",
+      "path": "/tag/ES6/"
     },
     {
-      "title": "plugin",
       "frontmatter": {
-        "title": "plugin",
-        "date": "2020-05-28T00:00:00.000Z"
+        "layout": "Tag",
+        "title": "JavaScript Tags"
       },
-      "regularPath": "/docs/theme-reco/plugin.html",
-      "relativePath": "docs/theme-reco/plugin.md",
-      "key": "v-71201c64",
-      "path": "/docs/theme-reco/plugin.html",
-      "lastUpdated": "1/15/2022, 9:41:09 PM"
+      "regularPath": "/tag/JavaScript/",
+      "key": "v-7a5f6990",
+      "path": "/tag/JavaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "Vue Tags"
+      },
+      "regularPath": "/tag/Vue/",
+      "key": "v-32475d9a",
+      "path": "/tag/Vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "introduce Tags"
+      },
+      "regularPath": "/tag/introduce/",
+      "key": "v-79a2a91a",
+      "path": "/tag/introduce/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "git Tags"
+      },
+      "regularPath": "/tag/git/",
+      "key": "v-32383f72",
+      "path": "/tag/git/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "ES6 Categories"
+      },
+      "regularPath": "/categories/ES6/",
+      "key": "v-7eff4a05",
+      "path": "/categories/ES6/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Vue Categories"
+      },
+      "regularPath": "/categories/Vue/",
+      "key": "v-7f0789a7",
+      "path": "/categories/Vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Git Categories"
+      },
+      "regularPath": "/categories/Git/",
+      "key": "v-7f008cdb",
+      "path": "/categories/Git/"
     }
   ],
   "themeConfig": {

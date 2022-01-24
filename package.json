@@ -12,6 +12,9 @@
   },
   "description": "小圆的博客",
   "dependencies": {
-    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7"
+    "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
+    "@vuepress-reco/vuepress-plugin-comments": "^1.5.7",
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "live2d-widget": "^3.1.4"
   }
 }
