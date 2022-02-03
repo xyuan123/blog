@@ -24,19 +24,11 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
-        "v-9e11ec96",
-        "v-08f12e1b",
         "v-dda97aca",
+        "v-08f12e1b",
         "v-eb3e21ca",
+        "v-9e11ec96",
         "v-71d07c7b"
-      ]
-    },
-    "introduce": {
-      "key": "introduce",
-      "scope": "tags",
-      "path": "/tag/introduce/",
-      "pageKeys": [
-        "v-8cfa1d18"
       ]
     },
     "git": {
@@ -45,6 +37,22 @@ export default {
       "path": "/tag/git/",
       "pageKeys": [
         "v-d084738a"
+      ]
+    },
+    "axios": {
+      "key": "axios",
+      "scope": "tags",
+      "path": "/tag/axios/",
+      "pageKeys": [
+        "v-13ccba1b"
+      ]
+    },
+    "introduce": {
+      "key": "introduce",
+      "scope": "tags",
+      "path": "/tag/introduce/",
+      "pageKeys": [
+        "v-8cfa1d18"
       ]
     }
   },
@@ -62,10 +70,10 @@ export default {
       "scope": "categories",
       "path": "/categories/Vue/",
       "pageKeys": [
-        "v-9e11ec96",
-        "v-08f12e1b",
         "v-dda97aca",
+        "v-08f12e1b",
         "v-eb3e21ca",
+        "v-9e11ec96",
         "v-71d07c7b"
       ]
     },
@@ -75,6 +83,14 @@ export default {
       "path": "/categories/Git/",
       "pageKeys": [
         "v-d084738a"
+      ]
+    },
+    "axios": {
+      "key": "axios",
+      "scope": "categories",
+      "path": "/categories/axios/",
+      "pageKeys": [
+        "v-13ccba1b"
       ]
     }
   },

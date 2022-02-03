@@ -1,5 +1,5 @@
 module.exports = {
-  "title": "夏鸣予的博客",
+  "title": "生活笔记XY",
   "description": "永远怀着一刻真诚与善良的心",
   "dest": "public",
   "plugins": [['@vuepress-reco/vuepress-plugin-kan-ban-niang', {
@@ -30,7 +30,7 @@ module.exports = {
       bottom: '200px',
       'z-index': '999999'
     }
-  }]],
+  }],'@vuepress/plugin-medium-zoom'],
   "head": [
     [
       "link",
@@ -49,6 +49,7 @@ module.exports = {
   ],
   "theme": "reco",
   "themeConfig": {
+    subSidebar: 'auto',
     "author": "夏鸣予",
     "huawei": true,
     "nav": [
@@ -65,7 +66,7 @@ module.exports = {
       {
         "text": "留言板",
         "icon": "reco-message",
-        "link": '/messageBoard'
+        "link": '/views/others/message'
       },
       {
         "text": "Contact",
@@ -121,8 +122,9 @@ module.exports = {
     "lastUpdated": "Last Updated",
     "author": "夏鸣予",
     "authorAvatar": "/avatar.png",
-    "record": "xxxx",
-    "startYear": "2017"
+    "recordLink": 'https://beian.miit.gov.cn',
+    "record": "浙ICP备2022002789号-1",
+    "startYear": "2022"
   },
   "markdown": {
     "lineNumbers": true

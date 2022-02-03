@@ -9,6 +9,14 @@ import GlobalLayout from "E:\\小圆的前端学习\\vue项目\\blog\\node_modul
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-b413a096",
+    path: "/blogs/category/ES6/generator.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-b413a096").then(next)
+    },
+  },
+  {
     name: "v-f1694f66",
     path: "/",
     component: GlobalLayout,
@@ -21,19 +29,11 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-b413a096",
-    path: "/blogs/category/ES6/generator.html",
+    name: "v-dda97aca",
+    path: "/blogs/category/Vue/vueCss.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-b413a096").then(next)
-    },
-  },
-  {
-    name: "v-9e11ec96",
-    path: "/blogs/category/Vue/dynamicComponents.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-9e11ec96").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-dda97aca").then(next)
     },
   },
   {
@@ -45,19 +45,19 @@ export const routes = [
     },
   },
   {
-    name: "v-dda97aca",
-    path: "/blogs/category/Vue/vueCss.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-dda97aca").then(next)
-    },
-  },
-  {
     name: "v-eb3e21ca",
     path: "/blogs/category/Vue/transferParams.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-eb3e21ca").then(next)
+    },
+  },
+  {
+    name: "v-9e11ec96",
+    path: "/blogs/category/Vue/dynamicComponents.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-9e11ec96").then(next)
     },
   },
   {
@@ -69,11 +69,27 @@ export const routes = [
     },
   },
   {
-    name: "v-e5172948",
-    path: "/messageBoard.html",
+    name: "v-d084738a",
+    path: "/blogs/category/git/gitcmd.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e5172948").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-d084738a").then(next)
+    },
+  },
+  {
+    name: "v-13ccba1b",
+    path: "/blogs/category/axios/axiospackaging.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-13ccba1b").then(next)
+    },
+  },
+  {
+    name: "v-36597502",
+    path: "/views/others/message.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-36597502").then(next)
     },
   },
   {
@@ -82,14 +98,6 @@ export const routes = [
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-8cfa1d18").then(next)
-    },
-  },
-  {
-    name: "v-d084738a",
-    path: "/blogs/category/git/gitcmd.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d084738a").then(next)
     },
   },
   {
@@ -171,19 +179,6 @@ export const routes = [
     redirect: "/tag/Vue/"
   },
   {
-    name: "v-79a2a91a",
-    path: "/tag/introduce/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-79a2a91a").then(next)
-    },
-    meta: {"pid":"tags","id":"introduce"}
-  },
-  {
-    path: "/tag/introduce/index.html",
-    redirect: "/tag/introduce/"
-  },
-  {
     name: "v-32383f72",
     path: "/tag/git/",
     component: GlobalLayout,
@@ -195,6 +190,32 @@ export const routes = [
   {
     path: "/tag/git/index.html",
     redirect: "/tag/git/"
+  },
+  {
+    name: "v-980194ba",
+    path: "/tag/axios/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-980194ba").then(next)
+    },
+    meta: {"pid":"tags","id":"axios"}
+  },
+  {
+    path: "/tag/axios/index.html",
+    redirect: "/tag/axios/"
+  },
+  {
+    name: "v-79a2a91a",
+    path: "/tag/introduce/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-79a2a91a").then(next)
+    },
+    meta: {"pid":"tags","id":"introduce"}
+  },
+  {
+    path: "/tag/introduce/index.html",
+    redirect: "/tag/introduce/"
   },
   {
     name: "v-7eff4a05",
@@ -234,6 +255,19 @@ export const routes = [
   {
     path: "/categories/Git/index.html",
     redirect: "/categories/Git/"
+  },
+  {
+    name: "v-2383bdd2",
+    path: "/categories/axios/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-2383bdd2").then(next)
+    },
+    meta: {"pid":"categories","id":"axios"}
+  },
+  {
+    path: "/categories/axios/index.html",
+    redirect: "/categories/axios/"
   },
   {
     path: '*',

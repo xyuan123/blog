@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 夏鸣予
-tagline: 无奈涧水何,喧喧夜鸣石。
+tagline: 不要因为没有掌声,而丢掉梦想。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -25,3 +25,4 @@ features:
 - title: Tomorrow
   details: 希望更多的爱好者能够参与进来，帮助这个主题更好的成长
 ---
+<NewFont />

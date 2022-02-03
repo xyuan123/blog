@@ -1,6 +1,6 @@
 ---
 
-title: 让我的Vue得到重生(二)-Vue传参
+title: vue进阶之路(二)-Vue传参
 date: 2022-01-07
 tags:
  - Vue
@@ -8,7 +8,8 @@ categories:
  - Vue
 ---
 
-## 前奏
+
+
 
 ::: tip 
 
@@ -17,6 +18,8 @@ categories:
 :::
 
 <!-- more -->
+
+## 前奏
 
 首先先埋一个伏笔,在配置路由时,大家应该都知道,要给路由起个名字,我们先配2个页面,一个home页,一个search页。
 
@@ -343,26 +346,6 @@ export default {
 ## 小细节
 
 接下来就是一些细节性的东西了。
-
-### 1.params传参
-
-#### 1.1使用params传参,路由跳转只能用name,不能用path
-
-#### 1.2 params传参,刷新页面,params里面的数据会丢失
-
-### 2. query传参
-
-#### 2.1使用query传参,你传的数据会在路径上显示,例:
-
-```
-http://localhost:8081/#/search?commodityContent=test
-```
-
-#### 2.2 使用query传参,页面刷新数据不会丢失
-
-#### 2.3使用query传参,用name或者path进行跳转都可以
-
-###  3 动态路径传参
 
 如果你在search路由进行了动态路径的配置
 
