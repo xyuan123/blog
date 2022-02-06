@@ -15,25 +15,26 @@
             // stop: [4, 13] // 可以是数组，多几个位置停顿
           },
           {
-            title: "疏影横斜水清浅,暗香浮动夜黄昏",
+            title: '生如夏花之绚烂,死若秋叶之静美',
             stop: 7
           },
           {
             title: "多爱自己一点点",
           },
           {
-            title: "不要着急~",
+            title: "不要着急,最好的总会在最不经意的时候出现。",
+            stop: 4
           },
           {
             title: "写代码,一定要优雅",
             stop: 3
           },
           {
-            title: "为中华值崛起而读书",
-          },
-          {
             title: "你相信光吗?",
           },
+          {
+            title: "外面下着毛毛细雨,阳台上的衣服依旧落着些许水滴,一直未干,我想大抵是与我一样,不想干了"
+          }
         ],
         // 当前进行到第几行
         currentIndex: 0,
@@ -125,7 +126,7 @@
               span.style.animationDelay = `${delay}s`;
             });
             this.el.addEventListener("animationend", this.firstEnd);
-          }, 3500);
+          }, 3200);
         }
       },
 

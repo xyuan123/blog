@@ -23,6 +23,39 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "夏鸣予",
+        "tagline": "不要因为没有掌声,而丢掉梦想。",
+        "bgImageStyle": {
+          "height": "450px"
+        },
+        "isShowTitleInHome": false,
+        "actionText": "Guide",
+        "actionLink": "/views/other/guide",
+        "features": [
+          {
+            "title": "Yesterday",
+            "details": "开发一款看着开心、写着顺手的 vuepress 博客主题"
+          },
+          {
+            "title": "Today",
+            "details": "希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上"
+          },
+          {
+            "title": "Tomorrow",
+            "details": "希望更多的爱好者能够参与进来，帮助这个主题更好的成长"
+          }
+        ]
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-f1694f66",
+      "path": "/",
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
+    },
+    {
       "title": "ES6学习之路(一) Generator函数",
       "frontmatter": {
         "title": "ES6学习之路(一) Generator函数",
@@ -65,43 +98,10 @@ export const siteData = {
       "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
-      "title": "Home",
+      "title": "让我的Vue得到重生(四)-Vue的动态组件",
       "frontmatter": {
-        "home": true,
-        "heroText": "夏鸣予",
-        "tagline": "不要因为没有掌声,而丢掉梦想。",
-        "bgImageStyle": {
-          "height": "450px"
-        },
-        "isShowTitleInHome": false,
-        "actionText": "Guide",
-        "actionLink": "/views/other/guide",
-        "features": [
-          {
-            "title": "Yesterday",
-            "details": "开发一款看着开心、写着顺手的 vuepress 博客主题"
-          },
-          {
-            "title": "Today",
-            "details": "希望帮助更多的人花更多的时间在内容创作上，而不是博客搭建上"
-          },
-          {
-            "title": "Tomorrow",
-            "details": "希望更多的爱好者能够参与进来，帮助这个主题更好的成长"
-          }
-        ]
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-f1694f66",
-      "path": "/",
-      "lastUpdated": "1/19/2022, 4:27:50 PM"
-    },
-    {
-      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
-      "frontmatter": {
-        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
-        "date": "2022-01-24T00:00:00.000Z",
+        "title": "让我的Vue得到重生(四)-Vue的动态组件",
+        "date": "2022-01-22T00:00:00.000Z",
         "tags": [
           "Vue"
         ],
@@ -109,42 +109,10 @@ export const siteData = {
           "Vue"
         ]
       },
-      "regularPath": "/blogs/category/Vue/vueCss.html",
-      "relativePath": "blogs/category/Vue/vueCss.md",
-      "key": "v-dda97aca",
-      "path": "/blogs/category/Vue/vueCss.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "教程",
-          "slug": "教程"
-        },
-        {
-          "level": 2,
-          "title": "哲学时刻",
-          "slug": "哲学时刻"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
-    },
-    {
-      "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
-      "frontmatter": {
-        "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
-        "date": "2022-01-07T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ],
-        "sticky": 3
-      },
-      "regularPath": "/blogs/category/Vue/vueInstall.html",
-      "relativePath": "blogs/category/Vue/vueInstall.md",
-      "key": "v-08f12e1b",
-      "path": "/blogs/category/Vue/vueInstall.html",
+      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
+      "relativePath": "blogs/category/Vue/dynamicComponents.md",
+      "key": "v-9e11ec96",
+      "path": "/blogs/category/Vue/dynamicComponents.html",
       "headers": [
         {
           "level": 2,
@@ -157,18 +125,33 @@ export const siteData = {
           "slug": "主题"
         },
         {
-          "level": 2,
-          "title": "总结",
-          "slug": "总结"
+          "level": 3,
+          "title": "解释",
+          "slug": "解释"
         },
         {
           "level": 2,
-          "title": "鸡汤时刻",
-          "slug": "鸡汤时刻"
+          "title": "使用keep-alive组件缓存部分动态组件",
+          "slug": "使用keep-alive组件缓存部分动态组件"
+        },
+        {
+          "level": 2,
+          "title": "动态组件传参",
+          "slug": "动态组件传参"
+        },
+        {
+          "level": 2,
+          "title": "小细节",
+          "slug": "小细节"
+        },
+        {
+          "level": 2,
+          "title": "哲学时刻",
+          "slug": "哲学时刻"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>",
-      "lastUpdated": "1/19/2022, 4:27:50 PM"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
+      "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
       "title": "vue进阶之路(二)-Vue传参",
@@ -239,24 +222,95 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中路由传参的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
-      "lastUpdated": "1/19/2022, 4:27:50 PM"
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
-      "title": "让我的Vue得到重生(四)-Vue的动态组件",
+      "title": "JS之reduce函数",
       "frontmatter": {
-        "title": "让我的Vue得到重生(四)-Vue的动态组件",
-        "date": "2022-01-22T00:00:00.000Z",
+        "title": "JS之reduce函数",
+        "date": "2022-01-14T00:00:00.000Z",
+        "tags": [
+          "reduce"
+        ],
+        "categories": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blogs/category/JavaScript/reduce.html",
+      "relativePath": "blogs/category/JavaScript/reduce.md",
+      "key": "v-1c09b6fa",
+      "path": "/blogs/category/JavaScript/reduce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用法举例",
+          "slug": "用法举例"
+        },
+        {
+          "level": 3,
+          "title": "1.求数组的和",
+          "slug": "_1-求数组的和"
+        },
+        {
+          "level": 3,
+          "title": "2.累加对象数组里面的值",
+          "slug": "_2-累加对象数组里面的值"
+        },
+        {
+          "level": 3,
+          "title": "3.二维数组转一维",
+          "slug": "_3-二维数组转一维"
+        },
+        {
+          "level": 3,
+          "title": "4.计算数组中每个元素出现的次数",
+          "slug": "_4-计算数组中每个元素出现的次数"
+        },
+        {
+          "level": 3,
+          "title": "5.按属性分类",
+          "slug": "_5-按属性分类"
+        },
+        {
+          "level": 3,
+          "title": "6. 把对象数组中的数组合并起来",
+          "slug": "_6-把对象数组中的数组合并起来"
+        },
+        {
+          "level": 3,
+          "title": "7.数组去重",
+          "slug": "_7-数组去重"
+        },
+        {
+          "level": 3,
+          "title": "8.按顺序运行Promise",
+          "slug": "_8-按顺序运行promise"
+        },
+        {
+          "level": 2,
+          "title": "博客",
+          "slug": "博客"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于js reduce函数的文档o(￣▽￣)ｄ</p>\n</div>"
+    },
+    {
+      "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
+      "frontmatter": {
+        "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
+        "date": "2022-01-07T00:00:00.000Z",
         "tags": [
           "Vue"
         ],
         "categories": [
           "Vue"
-        ]
+        ],
+        "sticky": 3
       },
-      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
-      "relativePath": "blogs/category/Vue/dynamicComponents.md",
-      "key": "v-9e11ec96",
-      "path": "/blogs/category/Vue/dynamicComponents.html",
+      "regularPath": "/blogs/category/Vue/vueInstall.html",
+      "relativePath": "blogs/category/Vue/vueInstall.md",
+      "key": "v-08f12e1b",
+      "path": "/blogs/category/Vue/vueInstall.html",
       "headers": [
         {
           "level": 2,
@@ -269,24 +323,40 @@ export const siteData = {
           "slug": "主题"
         },
         {
-          "level": 3,
-          "title": "解释",
-          "slug": "解释"
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
         },
         {
           "level": 2,
-          "title": "使用keep-alive组件缓存部分动态组件",
-          "slug": "使用keep-alive组件缓存部分动态组件"
-        },
+          "title": "鸡汤时刻",
+          "slug": "鸡汤时刻"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>",
+      "lastUpdated": "1/19/2022, 4:27:50 PM"
+    },
+    {
+      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+      "frontmatter": {
+        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+        "date": "2022-01-24T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/vueCss.html",
+      "relativePath": "blogs/category/Vue/vueCss.md",
+      "key": "v-dda97aca",
+      "path": "/blogs/category/Vue/vueCss.html",
+      "headers": [
         {
           "level": 2,
-          "title": "动态组件传参",
-          "slug": "动态组件传参"
-        },
-        {
-          "level": 2,
-          "title": "小细节",
-          "slug": "小细节"
+          "title": "教程",
+          "slug": "教程"
         },
         {
           "level": 2,
@@ -294,8 +364,22 @@ export const siteData = {
           "slug": "哲学时刻"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>",
       "lastUpdated": "1/24/2022, 10:21:23 PM"
+    },
+    {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2022-01-14T00:00:00.000Z",
+        "author": "夏鸣予",
+        "publish": false
+      },
+      "regularPath": "/views/others/message.html",
+      "relativePath": "views/others/message.md",
+      "key": "v-36597502",
+      "path": "/views/others/message.html",
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
       "title": "Vue进阶之与vuex来一次邂逅",
@@ -391,7 +475,42 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>最是人间留不住，朱辞颜镜花辞树，与vuex来一次完美的邂逅吧!o(<strong>￣︶￣</strong>)o</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
+    },
+    {
+      "title": "axios在项目中的封装",
+      "frontmatter": {
+        "title": "axios在项目中的封装",
+        "date": "2022-01-05T00:00:00.000Z",
+        "tags": [
+          "axios"
+        ],
+        "categories": [
+          "axios"
+        ]
+      },
+      "regularPath": "/blogs/category/axios/axiospackaging.html",
+      "relativePath": "blogs/category/axios/axiospackaging.md",
+      "key": "v-13ccba1b",
+      "path": "/blogs/category/axios/axiospackaging.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 2,
+          "title": "环境变量",
+          "slug": "环境变量"
+        }
+      ],
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
       "title": "git常用命令",
@@ -496,53 +615,6 @@ export const siteData = {
       "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
-      "title": "axios在项目中的封装",
-      "frontmatter": {
-        "title": "axios在项目中的封装",
-        "date": "2022-01-05T00:00:00.000Z",
-        "tags": [
-          "axios"
-        ],
-        "categories": [
-          "axios"
-        ]
-      },
-      "regularPath": "/blogs/category/axios/axiospackaging.html",
-      "relativePath": "blogs/category/axios/axiospackaging.md",
-      "key": "v-13ccba1b",
-      "path": "/blogs/category/axios/axiospackaging.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前言",
-          "slug": "前言"
-        },
-        {
-          "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 2,
-          "title": "环境变量",
-          "slug": "环境变量"
-        }
-      ]
-    },
-    {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2022-01-14T00:00:00.000Z",
-        "author": "夏鸣予",
-        "publish": false
-      },
-      "regularPath": "/views/others/message.html",
-      "relativePath": "views/others/message.md",
-      "key": "v-36597502",
-      "path": "/views/others/message.html"
-    },
-    {
       "title": "我的个人简介",
       "frontmatter": {
         "title": "我的个人简介",
@@ -634,11 +706,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "git Tags"
+        "title": "reduce Tags"
       },
-      "regularPath": "/tag/git/",
-      "key": "v-32383f72",
-      "path": "/tag/git/"
+      "regularPath": "/tag/reduce/",
+      "key": "v-2e81699f",
+      "path": "/tag/reduce/"
     },
     {
       "frontmatter": {
@@ -648,6 +720,15 @@ export const siteData = {
       "regularPath": "/tag/axios/",
       "key": "v-980194ba",
       "path": "/tag/axios/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "git Tags"
+      },
+      "regularPath": "/tag/git/",
+      "key": "v-32383f72",
+      "path": "/tag/git/"
     },
     {
       "frontmatter": {
@@ -679,11 +760,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "Git Categories"
+        "title": "JavaScript Categories"
       },
-      "regularPath": "/categories/Git/",
-      "key": "v-7f008cdb",
-      "path": "/categories/Git/"
+      "regularPath": "/categories/JavaScript/",
+      "key": "v-081e6844",
+      "path": "/categories/JavaScript/"
     },
     {
       "frontmatter": {
@@ -693,6 +774,15 @@ export const siteData = {
       "regularPath": "/categories/axios/",
       "key": "v-2383bdd2",
       "path": "/categories/axios/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "Git Categories"
+      },
+      "regularPath": "/categories/Git/",
+      "key": "v-7f008cdb",
+      "path": "/categories/Git/"
     }
   ],
   "themeConfig": {
@@ -721,7 +811,13 @@ export const siteData = {
         "items": [
           {
             "text": "gitee",
-            "link": "https://gitee.com/smart-x"
+            "link": "https://gitee.com/smart-x",
+            "icon": "reco-mayun"
+          },
+          {
+            "text": "csdn",
+            "link": "https://blog.csdn.net/qq_42356513?spm=1011.2124.3001.5343",
+            "icon": "reco-csdn"
           }
         ]
       }

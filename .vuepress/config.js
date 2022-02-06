@@ -75,6 +75,12 @@ module.exports = {
           {
             "text": "gitee",
             "link": "https://gitee.com/smart-x",
+            "icon": "reco-mayun"
+          },
+          {
+            "text": "csdn",
+            "link": "https://blog.csdn.net/qq_42356513?spm=1011.2124.3001.5343",
+            "icon": "reco-csdn"
           }
         ]
       }
