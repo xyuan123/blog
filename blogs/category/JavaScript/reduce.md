@@ -70,6 +70,9 @@ const sum = [1, 2, 3].reduce((arr, item, index) => {
 ### 4.计算数组中每个元素出现的次数
 
 ```js
+     const arr = [
+      1, 2, 3, 1, 31, 3, 1, 45, 5, 6, 1
+    ]
 // 看累加器里面有这一项没,有就把这一项的value+1,没有就把value赋值1    
 const obj = arr.reduce((acc, item) => {
       // if (Object.keys(acc).indexOf(item) !== -1) {

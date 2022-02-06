@@ -56,6 +56,77 @@ export const siteData = {
       "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
+      "title": "JS之reduce函数",
+      "frontmatter": {
+        "title": "JS之reduce函数",
+        "date": "2022-01-14T00:00:00.000Z",
+        "tags": [
+          "reduce"
+        ],
+        "categories": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blogs/category/JavaScript/reduce.html",
+      "relativePath": "blogs/category/JavaScript/reduce.md",
+      "key": "v-1c09b6fa",
+      "path": "/blogs/category/JavaScript/reduce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "用法举例",
+          "slug": "用法举例"
+        },
+        {
+          "level": 3,
+          "title": "1.求数组的和",
+          "slug": "_1-求数组的和"
+        },
+        {
+          "level": 3,
+          "title": "2.累加对象数组里面的值",
+          "slug": "_2-累加对象数组里面的值"
+        },
+        {
+          "level": 3,
+          "title": "3.二维数组转一维",
+          "slug": "_3-二维数组转一维"
+        },
+        {
+          "level": 3,
+          "title": "4.计算数组中每个元素出现的次数",
+          "slug": "_4-计算数组中每个元素出现的次数"
+        },
+        {
+          "level": 3,
+          "title": "5.按属性分类",
+          "slug": "_5-按属性分类"
+        },
+        {
+          "level": 3,
+          "title": "6. 把对象数组中的数组合并起来",
+          "slug": "_6-把对象数组中的数组合并起来"
+        },
+        {
+          "level": 3,
+          "title": "7.数组去重",
+          "slug": "_7-数组去重"
+        },
+        {
+          "level": 3,
+          "title": "8.按顺序运行Promise",
+          "slug": "_8-按顺序运行promise"
+        },
+        {
+          "level": 2,
+          "title": "博客",
+          "slug": "博客"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于js reduce函数的文档o(￣▽￣)ｄ</p>\n</div>",
+      "lastUpdated": "2/6/2022, 11:36:11 AM"
+    },
+    {
       "title": "ES6学习之路(一) Generator函数",
       "frontmatter": {
         "title": "ES6学习之路(一) Generator函数",
@@ -95,62 +166,6 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于ES6generator函数的知识o(￣▽￣)ｄ</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
-    },
-    {
-      "title": "让我的Vue得到重生(四)-Vue的动态组件",
-      "frontmatter": {
-        "title": "让我的Vue得到重生(四)-Vue的动态组件",
-        "date": "2022-01-22T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ]
-      },
-      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
-      "relativePath": "blogs/category/Vue/dynamicComponents.md",
-      "key": "v-9e11ec96",
-      "path": "/blogs/category/Vue/dynamicComponents.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前奏",
-          "slug": "前奏"
-        },
-        {
-          "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 3,
-          "title": "解释",
-          "slug": "解释"
-        },
-        {
-          "level": 2,
-          "title": "使用keep-alive组件缓存部分动态组件",
-          "slug": "使用keep-alive组件缓存部分动态组件"
-        },
-        {
-          "level": 2,
-          "title": "动态组件传参",
-          "slug": "动态组件传参"
-        },
-        {
-          "level": 2,
-          "title": "小细节",
-          "slug": "小细节"
-        },
-        {
-          "level": 2,
-          "title": "哲学时刻",
-          "slug": "哲学时刻"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
       "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
@@ -225,74 +240,35 @@ export const siteData = {
       "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
-      "title": "JS之reduce函数",
+      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
       "frontmatter": {
-        "title": "JS之reduce函数",
-        "date": "2022-01-14T00:00:00.000Z",
+        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+        "date": "2022-01-24T00:00:00.000Z",
         "tags": [
-          "reduce"
+          "Vue"
         ],
         "categories": [
-          "JavaScript"
+          "Vue"
         ]
       },
-      "regularPath": "/blogs/category/JavaScript/reduce.html",
-      "relativePath": "blogs/category/JavaScript/reduce.md",
-      "key": "v-1c09b6fa",
-      "path": "/blogs/category/JavaScript/reduce.html",
+      "regularPath": "/blogs/category/Vue/vueCss.html",
+      "relativePath": "blogs/category/Vue/vueCss.md",
+      "key": "v-dda97aca",
+      "path": "/blogs/category/Vue/vueCss.html",
       "headers": [
         {
           "level": 2,
-          "title": "用法举例",
-          "slug": "用法举例"
-        },
-        {
-          "level": 3,
-          "title": "1.求数组的和",
-          "slug": "_1-求数组的和"
-        },
-        {
-          "level": 3,
-          "title": "2.累加对象数组里面的值",
-          "slug": "_2-累加对象数组里面的值"
-        },
-        {
-          "level": 3,
-          "title": "3.二维数组转一维",
-          "slug": "_3-二维数组转一维"
-        },
-        {
-          "level": 3,
-          "title": "4.计算数组中每个元素出现的次数",
-          "slug": "_4-计算数组中每个元素出现的次数"
-        },
-        {
-          "level": 3,
-          "title": "5.按属性分类",
-          "slug": "_5-按属性分类"
-        },
-        {
-          "level": 3,
-          "title": "6. 把对象数组中的数组合并起来",
-          "slug": "_6-把对象数组中的数组合并起来"
-        },
-        {
-          "level": 3,
-          "title": "7.数组去重",
-          "slug": "_7-数组去重"
-        },
-        {
-          "level": 3,
-          "title": "8.按顺序运行Promise",
-          "slug": "_8-按顺序运行promise"
+          "title": "教程",
+          "slug": "教程"
         },
         {
           "level": 2,
-          "title": "博客",
-          "slug": "博客"
+          "title": "哲学时刻",
+          "slug": "哲学时刻"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于js reduce函数的文档o(￣▽￣)ｄ</p>\n</div>"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>",
+      "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
       "title": "让我的Vue得到重生(-)-在vue项目中封装自己的插件",
@@ -337,10 +313,10 @@ export const siteData = {
       "lastUpdated": "1/19/2022, 4:27:50 PM"
     },
     {
-      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+      "title": "让我的Vue得到重生(四)-Vue的动态组件",
       "frontmatter": {
-        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
-        "date": "2022-01-24T00:00:00.000Z",
+        "title": "让我的Vue得到重生(四)-Vue的动态组件",
+        "date": "2022-01-22T00:00:00.000Z",
         "tags": [
           "Vue"
         ],
@@ -348,15 +324,40 @@ export const siteData = {
           "Vue"
         ]
       },
-      "regularPath": "/blogs/category/Vue/vueCss.html",
-      "relativePath": "blogs/category/Vue/vueCss.md",
-      "key": "v-dda97aca",
-      "path": "/blogs/category/Vue/vueCss.html",
+      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
+      "relativePath": "blogs/category/Vue/dynamicComponents.md",
+      "key": "v-9e11ec96",
+      "path": "/blogs/category/Vue/dynamicComponents.html",
       "headers": [
         {
           "level": 2,
-          "title": "教程",
-          "slug": "教程"
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 3,
+          "title": "解释",
+          "slug": "解释"
+        },
+        {
+          "level": 2,
+          "title": "使用keep-alive组件缓存部分动态组件",
+          "slug": "使用keep-alive组件缓存部分动态组件"
+        },
+        {
+          "level": 2,
+          "title": "动态组件传参",
+          "slug": "动态组件传参"
+        },
+        {
+          "level": 2,
+          "title": "小细节",
+          "slug": "小细节"
         },
         {
           "level": 2,
@@ -364,22 +365,8 @@ export const siteData = {
           "slug": "哲学时刻"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>",
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
       "lastUpdated": "1/24/2022, 10:21:23 PM"
-    },
-    {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2022-01-14T00:00:00.000Z",
-        "author": "夏鸣予",
-        "publish": false
-      },
-      "regularPath": "/views/others/message.html",
-      "relativePath": "views/others/message.md",
-      "key": "v-36597502",
-      "path": "/views/others/message.html",
-      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
       "title": "Vue进阶之与vuex来一次邂逅",
@@ -615,6 +602,20 @@ export const siteData = {
       "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2022-01-14T00:00:00.000Z",
+        "author": "夏鸣予",
+        "publish": false
+      },
+      "regularPath": "/views/others/message.html",
+      "relativePath": "views/others/message.md",
+      "key": "v-36597502",
+      "path": "/views/others/message.html",
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
+    },
+    {
       "title": "我的个人简介",
       "frontmatter": {
         "title": "我的个人简介",
@@ -647,7 +648,7 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>赏脸看看作者的个人简介把(￣︶￣)&gt;</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
+      "lastUpdated": "2/6/2022, 11:36:11 AM"
     },
     {
       "frontmatter": {
@@ -679,6 +680,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "reduce Tags"
+      },
+      "regularPath": "/tag/reduce/",
+      "key": "v-2e81699f",
+      "path": "/tag/reduce/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "ES6 Tags"
       },
       "regularPath": "/tag/ES6/",
@@ -702,15 +712,6 @@ export const siteData = {
       "regularPath": "/tag/Vue/",
       "key": "v-32475d9a",
       "path": "/tag/Vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "reduce Tags"
-      },
-      "regularPath": "/tag/reduce/",
-      "key": "v-2e81699f",
-      "path": "/tag/reduce/"
     },
     {
       "frontmatter": {
@@ -742,6 +743,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
+        "title": "JavaScript Categories"
+      },
+      "regularPath": "/categories/JavaScript/",
+      "key": "v-081e6844",
+      "path": "/categories/JavaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
         "title": "ES6 Categories"
       },
       "regularPath": "/categories/ES6/",
@@ -756,15 +766,6 @@ export const siteData = {
       "regularPath": "/categories/Vue/",
       "key": "v-7f0789a7",
       "path": "/categories/Vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "JavaScript Categories"
-      },
-      "regularPath": "/categories/JavaScript/",
-      "key": "v-081e6844",
-      "path": "/categories/JavaScript/"
     },
     {
       "frontmatter": {

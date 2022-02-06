@@ -3,6 +3,14 @@
  */
 export default {
   "tags": {
+    "reduce": {
+      "key": "reduce",
+      "scope": "tags",
+      "path": "/tag/reduce/",
+      "pageKeys": [
+        "v-1c09b6fa"
+      ]
+    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -24,19 +32,11 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
-        "v-9e11ec96",
         "v-eb3e21ca",
-        "v-08f12e1b",
         "v-dda97aca",
+        "v-08f12e1b",
+        "v-9e11ec96",
         "v-71d07c7b"
-      ]
-    },
-    "reduce": {
-      "key": "reduce",
-      "scope": "tags",
-      "path": "/tag/reduce/",
-      "pageKeys": [
-        "v-1c09b6fa"
       ]
     },
     "axios": {
@@ -65,6 +65,14 @@ export default {
     }
   },
   "categories": {
+    "JavaScript": {
+      "key": "JavaScript",
+      "scope": "categories",
+      "path": "/categories/JavaScript/",
+      "pageKeys": [
+        "v-1c09b6fa"
+      ]
+    },
     "ES6": {
       "key": "ES6",
       "scope": "categories",
@@ -78,19 +86,11 @@ export default {
       "scope": "categories",
       "path": "/categories/Vue/",
       "pageKeys": [
-        "v-9e11ec96",
         "v-eb3e21ca",
-        "v-08f12e1b",
         "v-dda97aca",
+        "v-08f12e1b",
+        "v-9e11ec96",
         "v-71d07c7b"
-      ]
-    },
-    "JavaScript": {
-      "key": "JavaScript",
-      "scope": "categories",
-      "path": "/categories/JavaScript/",
-      "pageKeys": [
-        "v-1c09b6fa"
       ]
     },
     "axios": {
