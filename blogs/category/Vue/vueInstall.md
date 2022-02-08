@@ -1,6 +1,6 @@
 ---
 
-title: 让我的Vue得到重生(-)-在vue项目中封装自己的插件
+title: Vue进阶-在vue项目中封装自己的插件
 date: 2022-01-07
 tags:
  - Vue

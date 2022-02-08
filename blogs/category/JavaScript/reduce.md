@@ -2,7 +2,7 @@
 title: JS之reduce函数
 date: 2022-01-14
 tags:
- - reduce
+ - js
 categories:
  - JavaScript
 ---

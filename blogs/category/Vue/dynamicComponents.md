@@ -1,6 +1,6 @@
 ---
 
-title: 让我的Vue得到重生(四)-Vue的动态组件
+title: Vue进阶-Vue的动态组件
 date: 2022-01-22
 tags:
  - Vue

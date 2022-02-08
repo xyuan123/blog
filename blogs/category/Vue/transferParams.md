@@ -1,6 +1,6 @@
 ---
 
-title: vue进阶之路(二)-Vue传参
+title: Vue路由传参
 date: 2022-01-07
 tags:
  - Vue
