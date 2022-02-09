@@ -3,12 +3,26 @@
  */
 export default {
   "tags": {
-    "reduce": {
-      "key": "reduce",
+    "js": {
+      "key": "js",
       "scope": "tags",
-      "path": "/tag/reduce/",
+      "path": "/tag/js/",
       "pageKeys": [
+        "v-543a3abe",
         "v-1c09b6fa"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "tags",
+      "path": "/tag/Vue/",
+      "pageKeys": [
+        "v-9e11ec96",
+        "v-dda97aca",
+        "v-08f12e1b",
+        "v-71d07c7b",
+        "v-eb3e21ca",
+        "v-99c196ca"
       ]
     },
     "ES6": {
@@ -25,18 +39,6 @@ export default {
       "path": "/tag/JavaScript/",
       "pageKeys": [
         "v-b413a096"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "tags",
-      "path": "/tag/Vue/",
-      "pageKeys": [
-        "v-eb3e21ca",
-        "v-dda97aca",
-        "v-08f12e1b",
-        "v-9e11ec96",
-        "v-71d07c7b"
       ]
     },
     "axios": {
@@ -70,7 +72,21 @@ export default {
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
+        "v-543a3abe",
         "v-1c09b6fa"
+      ]
+    },
+    "Vue": {
+      "key": "Vue",
+      "scope": "categories",
+      "path": "/categories/Vue/",
+      "pageKeys": [
+        "v-9e11ec96",
+        "v-dda97aca",
+        "v-08f12e1b",
+        "v-71d07c7b",
+        "v-eb3e21ca",
+        "v-99c196ca"
       ]
     },
     "ES6": {
@@ -79,18 +95,6 @@ export default {
       "path": "/categories/ES6/",
       "pageKeys": [
         "v-b413a096"
-      ]
-    },
-    "Vue": {
-      "key": "Vue",
-      "scope": "categories",
-      "path": "/categories/Vue/",
-      "pageKeys": [
-        "v-eb3e21ca",
-        "v-dda97aca",
-        "v-08f12e1b",
-        "v-9e11ec96",
-        "v-71d07c7b"
       ]
     },
     "axios": {
