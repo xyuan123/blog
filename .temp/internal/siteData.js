@@ -56,6 +56,273 @@ export const siteData = {
       "lastUpdated": "2/6/2022, 11:05:29 PM"
     },
     {
+      "title": "ES6学习之路(二) let&const",
+      "frontmatter": {
+        "title": "ES6学习之路(二) let&const",
+        "date": "2022-02-10T00:00:00.000Z",
+        "tags": [
+          "ES6",
+          "JavaScript"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/letconst.html",
+      "relativePath": "blogs/category/ES6/letconst.md",
+      "key": "v-cb115a0a",
+      "path": "/blogs/category/ES6/letconst.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "let",
+          "slug": "let"
+        },
+        {
+          "level": 3,
+          "title": "let声明的变量存在块级作用域",
+          "slug": "let声明的变量存在块级作用域"
+        },
+        {
+          "level": 3,
+          "title": "不允许重复声明变量",
+          "slug": "不允许重复声明变量"
+        },
+        {
+          "level": 3,
+          "title": "for循环与let",
+          "slug": "for循环与let"
+        },
+        {
+          "level": 3,
+          "title": "不存在变量提升",
+          "slug": "不存在变量提升"
+        },
+        {
+          "level": 3,
+          "title": "暂存性死区",
+          "slug": "暂存性死区"
+        },
+        {
+          "level": 3,
+          "title": "有趣的知识",
+          "slug": "有趣的知识"
+        },
+        {
+          "level": 3,
+          "title": "杂项",
+          "slug": "杂项"
+        },
+        {
+          "level": 2,
+          "title": "const",
+          "slug": "const"
+        },
+        {
+          "level": 2,
+          "title": "顶层对象",
+          "slug": "顶层对象"
+        }
+      ]
+    },
+    {
+      "title": "ES6学习之路(三) 解构赋值",
+      "frontmatter": {
+        "title": "ES6学习之路(三) 解构赋值",
+        "date": "2022-02-10T00:00:00.000Z",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/deconstructionAssignment.html",
+      "relativePath": "blogs/category/ES6/deconstructionAssignment.md",
+      "key": "v-c324f84a",
+      "path": "/blogs/category/ES6/deconstructionAssignment.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数组的解构赋值",
+          "slug": "数组的解构赋值"
+        },
+        {
+          "level": 3,
+          "title": "解构不成功",
+          "slug": "解构不成功"
+        },
+        {
+          "level": 3,
+          "title": "部分解构",
+          "slug": "部分解构"
+        },
+        {
+          "level": 3,
+          "title": "默认值",
+          "slug": "默认值"
+        },
+        {
+          "level": 2,
+          "title": "对象的解构赋值",
+          "slug": "对象的解构赋值"
+        },
+        {
+          "level": 3,
+          "title": "解构赋值重命名",
+          "slug": "解构赋值重命名"
+        },
+        {
+          "level": 3,
+          "title": "解构失败",
+          "slug": "解构失败"
+        },
+        {
+          "level": 2,
+          "title": "字符串的解构赋值",
+          "slug": "字符串的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "数值和布尔值的解构赋值",
+          "slug": "数值和布尔值的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "函数参数的解构赋值",
+          "slug": "函数参数的解构赋值"
+        },
+        {
+          "level": 2,
+          "title": "用途",
+          "slug": "用途"
+        },
+        {
+          "level": 3,
+          "title": "交换变量的值",
+          "slug": "交换变量的值"
+        },
+        {
+          "level": 3,
+          "title": "从函数中返回多个值",
+          "slug": "从函数中返回多个值"
+        },
+        {
+          "level": 3,
+          "title": "函数调用时直接解构",
+          "slug": "函数调用时直接解构"
+        },
+        {
+          "level": 2,
+          "title": "我在vue项目中的基操",
+          "slug": "我在vue项目中的基操"
+        },
+        {
+          "level": 3,
+          "title": "解构路由对象中的query和params参数",
+          "slug": "解构路由对象中的query和params参数"
+        },
+        {
+          "level": 3,
+          "title": "axios网络请求中解构data",
+          "slug": "axios网络请求中解构data"
+        }
+      ],
+      "excerpt": ""
+    },
+    {
+      "title": "ES6学习之路(一) Generator函数",
+      "frontmatter": {
+        "title": "ES6学习之路(一) Generator函数",
+        "date": "2022-01-5",
+        "tags": [
+          "ES6",
+          "JavaScript"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/generator.html",
+      "relativePath": "blogs/category/ES6/generator.md",
+      "key": "v-b413a096",
+      "path": "/blogs/category/ES6/generator.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 3,
+          "title": "主角",
+          "slug": "主角"
+        },
+        {
+          "level": 3,
+          "title": "next函数传参",
+          "slug": "next函数传参"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于ES6generator函数的知识o(￣▽￣)ｄ</p>\n</div>",
+      "lastUpdated": "1/24/2022, 10:21:23 PM"
+    },
+    {
+      "title": "ES6学习之路(四) 运算符的扩展",
+      "frontmatter": {
+        "title": "ES6学习之路(四) 运算符的扩展",
+        "date": "2022-02-10T00:00:00.000Z",
+        "tags": [
+          "ES6",
+          "JavaScript"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/operator.html",
+      "relativePath": "blogs/category/ES6/operator.md",
+      "key": "v-04e1f27b",
+      "path": "/blogs/category/ES6/operator.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "指数运算符",
+          "slug": "指数运算符"
+        },
+        {
+          "level": 2,
+          "title": "链判断运算符",
+          "slug": "链判断运算符"
+        },
+        {
+          "level": 3,
+          "title": "运行函数",
+          "slug": "运行函数"
+        },
+        {
+          "level": 2,
+          "title": "短路机制",
+          "slug": "短路机制"
+        },
+        {
+          "level": 2,
+          "title": "NULL判断运算符",
+          "slug": "null判断运算符"
+        },
+        {
+          "level": 3,
+          "title": "经典的设置默认值方法",
+          "slug": "经典的设置默认值方法"
+        }
+      ]
+    },
+    {
       "title": "JS之splice和slice函数",
       "frontmatter": {
         "title": "JS之splice和slice函数",
@@ -124,6 +391,87 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于js Splice和slice函数的文档o(￣▽￣)ｄ</p>\n</div>",
+      "lastUpdated": "2/8/2022, 11:10:03 AM"
+    },
+    {
+      "title": "Vue中使用normalize.css",
+      "frontmatter": {
+        "title": "Vue中使用normalize.css",
+        "date": "2022-02-08T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/normalize.html",
+      "relativePath": "blogs/category/Vue/normalize.md",
+      "key": "v-62f1a805",
+      "path": "/blogs/category/Vue/normalize.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        }
+      ],
+      "lastUpdated": "2/9/2022, 10:17:27 AM"
+    },
+    {
+      "title": "Vue进阶-Vue的动态组件",
+      "frontmatter": {
+        "title": "Vue进阶-Vue的动态组件",
+        "date": "2022-01-22T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
+      "relativePath": "blogs/category/Vue/dynamicComponents.md",
+      "key": "v-9e11ec96",
+      "path": "/blogs/category/Vue/dynamicComponents.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 3,
+          "title": "解释",
+          "slug": "解释"
+        },
+        {
+          "level": 2,
+          "title": "使用keep-alive组件缓存部分动态组件",
+          "slug": "使用keep-alive组件缓存部分动态组件"
+        },
+        {
+          "level": 2,
+          "title": "动态组件传参",
+          "slug": "动态组件传参"
+        },
+        {
+          "level": 2,
+          "title": "小细节",
+          "slug": "小细节"
+        },
+        {
+          "level": 2,
+          "title": "哲学时刻",
+          "slug": "哲学时刻"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
       "lastUpdated": "2/8/2022, 11:10:03 AM"
     },
     {
@@ -198,104 +546,6 @@ export const siteData = {
       "lastUpdated": "2/8/2022, 11:10:03 AM"
     },
     {
-      "title": "Vue进阶-Vue的动态组件",
-      "frontmatter": {
-        "title": "Vue进阶-Vue的动态组件",
-        "date": "2022-01-22T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ]
-      },
-      "regularPath": "/blogs/category/Vue/dynamicComponents.html",
-      "relativePath": "blogs/category/Vue/dynamicComponents.md",
-      "key": "v-9e11ec96",
-      "path": "/blogs/category/Vue/dynamicComponents.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前奏",
-          "slug": "前奏"
-        },
-        {
-          "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 3,
-          "title": "解释",
-          "slug": "解释"
-        },
-        {
-          "level": 2,
-          "title": "使用keep-alive组件缓存部分动态组件",
-          "slug": "使用keep-alive组件缓存部分动态组件"
-        },
-        {
-          "level": 2,
-          "title": "动态组件传参",
-          "slug": "动态组件传参"
-        },
-        {
-          "level": 2,
-          "title": "小细节",
-          "slug": "小细节"
-        },
-        {
-          "level": 2,
-          "title": "哲学时刻",
-          "slug": "哲学时刻"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
-      "lastUpdated": "2/8/2022, 11:10:03 AM"
-    },
-    {
-      "title": "ES6学习之路(一) Generator函数",
-      "frontmatter": {
-        "title": "ES6学习之路(一) Generator函数",
-        "date": "2022-01-5",
-        "tags": [
-          "ES6",
-          "JavaScript"
-        ],
-        "categories": [
-          "ES6"
-        ]
-      },
-      "regularPath": "/blogs/category/ES6/generator.html",
-      "relativePath": "blogs/category/ES6/generator.md",
-      "key": "v-b413a096",
-      "path": "/blogs/category/ES6/generator.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前奏",
-          "slug": "前奏"
-        },
-        {
-          "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 3,
-          "title": "主角",
-          "slug": "主角"
-        },
-        {
-          "level": 3,
-          "title": "next函数传参",
-          "slug": "next函数传参"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于ES6generator函数的知识o(￣▽￣)ｄ</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
-    },
-    {
       "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
       "frontmatter": {
         "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
@@ -367,102 +617,6 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>",
       "lastUpdated": "2/8/2022, 11:10:03 AM"
-    },
-    {
-      "title": "Vue进阶之与vuex来一次邂逅",
-      "frontmatter": {
-        "title": "Vue进阶之与vuex来一次邂逅",
-        "date": "2022-01-19T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ]
-      },
-      "regularPath": "/blogs/category/Vue/vuex.html",
-      "relativePath": "blogs/category/Vue/vuex.md",
-      "key": "v-71d07c7b",
-      "path": "/blogs/category/Vue/vuex.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "目录",
-          "slug": "目录"
-        },
-        {
-          "level": 2,
-          "title": "前奏",
-          "slug": "前奏"
-        },
-        {
-          "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 2,
-          "title": "State",
-          "slug": "state"
-        },
-        {
-          "level": 3,
-          "title": "1.mapState辅助函数",
-          "slug": "_1-mapstate辅助函数"
-        },
-        {
-          "level": 2,
-          "title": "getters",
-          "slug": "getters"
-        },
-        {
-          "level": 3,
-          "title": "getters传参",
-          "slug": "getters传参"
-        },
-        {
-          "level": 2,
-          "title": "Mutations",
-          "slug": "mutations"
-        },
-        {
-          "level": 3,
-          "title": "关于使用mutations的小细节",
-          "slug": "关于使用mutations的小细节"
-        },
-        {
-          "level": 2,
-          "title": "Actions",
-          "slug": "actions"
-        },
-        {
-          "level": 3,
-          "title": "组合Action",
-          "slug": "组合action"
-        },
-        {
-          "level": 2,
-          "title": "关于伏笔的解释",
-          "slug": "关于伏笔的解释"
-        },
-        {
-          "level": 2,
-          "title": "Modules",
-          "slug": "modules"
-        },
-        {
-          "level": 3,
-          "title": "命名空间",
-          "slug": "命名空间"
-        },
-        {
-          "level": 3,
-          "title": "提示",
-          "slug": "提示"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>最是人间留不住，朱辞颜镜花辞树，与vuex来一次完美的邂逅吧!o(<strong>￣︶￣</strong>)o</p>\n</div>",
-      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
       "title": "Vue路由传参",
@@ -572,6 +726,146 @@ export const siteData = {
       "lastUpdated": "2/8/2022, 11:10:03 AM"
     },
     {
+      "title": "Vue进阶之与vuex来一次邂逅",
+      "frontmatter": {
+        "title": "Vue进阶之与vuex来一次邂逅",
+        "date": "2022-01-19T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/vuex.html",
+      "relativePath": "blogs/category/Vue/vuex.md",
+      "key": "v-71d07c7b",
+      "path": "/blogs/category/Vue/vuex.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "目录",
+          "slug": "目录"
+        },
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 2,
+          "title": "State",
+          "slug": "state"
+        },
+        {
+          "level": 3,
+          "title": "1.mapState辅助函数",
+          "slug": "_1-mapstate辅助函数"
+        },
+        {
+          "level": 2,
+          "title": "getters",
+          "slug": "getters"
+        },
+        {
+          "level": 3,
+          "title": "getters传参",
+          "slug": "getters传参"
+        },
+        {
+          "level": 2,
+          "title": "Mutations",
+          "slug": "mutations"
+        },
+        {
+          "level": 3,
+          "title": "关于使用mutations的小细节",
+          "slug": "关于使用mutations的小细节"
+        },
+        {
+          "level": 2,
+          "title": "Actions",
+          "slug": "actions"
+        },
+        {
+          "level": 3,
+          "title": "组合Action",
+          "slug": "组合action"
+        },
+        {
+          "level": 2,
+          "title": "关于伏笔的解释",
+          "slug": "关于伏笔的解释"
+        },
+        {
+          "level": 2,
+          "title": "Modules",
+          "slug": "modules"
+        },
+        {
+          "level": 3,
+          "title": "命名空间",
+          "slug": "命名空间"
+        },
+        {
+          "level": 3,
+          "title": "提示",
+          "slug": "提示"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>最是人间留不住，朱辞颜镜花辞树，与vuex来一次完美的邂逅吧!o(<strong>￣︶￣</strong>)o</p>\n</div>",
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
+    },
+    {
+      "title": "小程序学习之路一-初识小程序",
+      "frontmatter": {
+        "title": "小程序学习之路一-初识小程序",
+        "date": "2022-02-09T00:00:00.000Z",
+        "tags": [
+          "miniProgram"
+        ],
+        "categories": [
+          "miniProgram"
+        ]
+      },
+      "regularPath": "/blogs/category/miniProgram/day1.html",
+      "relativePath": "blogs/category/miniProgram/day1.md",
+      "key": "v-7dc222fb",
+      "path": "/blogs/category/miniProgram/day1.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "注册账号",
+          "slug": "注册账号"
+        },
+        {
+          "level": 2,
+          "title": "目录结构",
+          "slug": "目录结构"
+        },
+        {
+          "level": 2,
+          "title": "Hello World",
+          "slug": "hello-world"
+        },
+        {
+          "level": 2,
+          "title": "列表循环",
+          "slug": "列表循环"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ]
+    },
+    {
       "title": "axios在Vue项目中的封装",
       "frontmatter": {
         "title": "axios在Vue项目中的封装",
@@ -615,20 +909,6 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2/8/2022, 11:10:03 AM"
-    },
-    {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2022-01-14T00:00:00.000Z",
-        "author": "夏鸣予",
-        "publish": false
-      },
-      "regularPath": "/views/others/message.html",
-      "relativePath": "views/others/message.md",
-      "key": "v-36597502",
-      "path": "/views/others/message.html",
-      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
       "title": "git常用命令",
@@ -733,6 +1013,20 @@ export const siteData = {
       "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2022-01-14T00:00:00.000Z",
+        "author": "夏鸣予",
+        "publish": false
+      },
+      "regularPath": "/views/others/message.html",
+      "relativePath": "views/others/message.md",
+      "key": "v-36597502",
+      "path": "/views/others/message.html",
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
+    },
+    {
       "title": "我的个人简介",
       "frontmatter": {
         "title": "我的个人简介",
@@ -797,6 +1091,24 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "ES6 Tags"
+      },
+      "regularPath": "/tag/ES6/",
+      "key": "v-3257dcde",
+      "path": "/tag/ES6/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "JavaScript Tags"
+      },
+      "regularPath": "/tag/JavaScript/",
+      "key": "v-7a5f6990",
+      "path": "/tag/JavaScript/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "js Tags"
       },
       "regularPath": "/tag/js/",
@@ -815,20 +1127,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "ES6 Tags"
+        "title": "miniProgram Tags"
       },
-      "regularPath": "/tag/ES6/",
-      "key": "v-3257dcde",
-      "path": "/tag/ES6/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "JavaScript Tags"
-      },
-      "regularPath": "/tag/JavaScript/",
-      "key": "v-7a5f6990",
-      "path": "/tag/JavaScript/"
+      "regularPath": "/tag/miniProgram/",
+      "key": "v-28201f4c",
+      "path": "/tag/miniProgram/"
     },
     {
       "frontmatter": {
@@ -860,6 +1163,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
+        "title": "ES6 Categories"
+      },
+      "regularPath": "/categories/ES6/",
+      "key": "v-7eff4a05",
+      "path": "/categories/ES6/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
         "title": "JavaScript Categories"
       },
       "regularPath": "/categories/JavaScript/",
@@ -878,11 +1190,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "ES6 Categories"
+        "title": "miniProgram Categories"
       },
-      "regularPath": "/categories/ES6/",
-      "key": "v-7eff4a05",
-      "path": "/categories/ES6/"
+      "regularPath": "/categories/miniProgram/",
+      "key": "v-e6d4b880",
+      "path": "/categories/miniProgram/"
     },
     {
       "frontmatter": {

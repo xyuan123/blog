@@ -3,11 +3,32 @@
  */
 export default {
   "tags": {
+    "ES6": {
+      "key": "ES6",
+      "scope": "tags",
+      "path": "/tag/ES6/",
+      "pageKeys": [
+        "v-cb115a0a",
+        "v-b413a096",
+        "v-04e1f27b"
+      ]
+    },
+    "JavaScript": {
+      "key": "JavaScript",
+      "scope": "tags",
+      "path": "/tag/JavaScript/",
+      "pageKeys": [
+        "v-cb115a0a",
+        "v-b413a096",
+        "v-04e1f27b"
+      ]
+    },
     "js": {
       "key": "js",
       "scope": "tags",
       "path": "/tag/js/",
       "pageKeys": [
+        "v-c324f84a",
         "v-543a3abe",
         "v-1c09b6fa"
       ]
@@ -17,28 +38,21 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
+        "v-62f1a805",
         "v-9e11ec96",
         "v-dda97aca",
         "v-08f12e1b",
-        "v-71d07c7b",
         "v-eb3e21ca",
-        "v-99c196ca"
+        "v-99c196ca",
+        "v-71d07c7b"
       ]
     },
-    "ES6": {
-      "key": "ES6",
+    "miniProgram": {
+      "key": "miniProgram",
       "scope": "tags",
-      "path": "/tag/ES6/",
+      "path": "/tag/miniProgram/",
       "pageKeys": [
-        "v-b413a096"
-      ]
-    },
-    "JavaScript": {
-      "key": "JavaScript",
-      "scope": "tags",
-      "path": "/tag/JavaScript/",
-      "pageKeys": [
-        "v-b413a096"
+        "v-7dc222fb"
       ]
     },
     "axios": {
@@ -67,6 +81,17 @@ export default {
     }
   },
   "categories": {
+    "ES6": {
+      "key": "ES6",
+      "scope": "categories",
+      "path": "/categories/ES6/",
+      "pageKeys": [
+        "v-cb115a0a",
+        "v-c324f84a",
+        "v-b413a096",
+        "v-04e1f27b"
+      ]
+    },
     "JavaScript": {
       "key": "JavaScript",
       "scope": "categories",
@@ -81,20 +106,21 @@ export default {
       "scope": "categories",
       "path": "/categories/Vue/",
       "pageKeys": [
+        "v-62f1a805",
         "v-9e11ec96",
         "v-dda97aca",
         "v-08f12e1b",
-        "v-71d07c7b",
         "v-eb3e21ca",
-        "v-99c196ca"
+        "v-99c196ca",
+        "v-71d07c7b"
       ]
     },
-    "ES6": {
-      "key": "ES6",
+    "miniProgram": {
+      "key": "miniProgram",
       "scope": "categories",
-      "path": "/categories/ES6/",
+      "path": "/categories/miniProgram/",
       "pageKeys": [
-        "v-b413a096"
+        "v-7dc222fb"
       ]
     },
     "axios": {

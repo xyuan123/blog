@@ -9,7 +9,6 @@ export default {
         mouseMove(e) {
             /*这里获取元素节点*/
             let oPanel = document.querySelector("#app");
-            console.log(oPanel)
             let oSpan = document.createElement(`span`);
             oSpan.classList.add('mouse-move')
             /*浏览器兼容*/

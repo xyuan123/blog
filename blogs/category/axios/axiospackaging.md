@@ -122,7 +122,7 @@ export default {
 
 ## 环境变量
 
-开发环境和生产环境一般是2套url,开发环境一般不会给你线上地址去调式的也就是接口地址(baserurl)是不一样的。这个时候就要配环境变量了。新建2个文件夹,一个`env.development`文件,一个`.env.production`文件。
+开发环境和生产环境一般是2套url,开发环境一般不会给你线上地址去调式的也就是接口地址(baserurl)是不一样的。这个时候就要配环境变量了。新建2个文件,一个`env.development`文件,一个`.env.production`文件。结构如下
 
 <img src="../../../.vuepress/public/axios/env.png" alt="加载失败" style="zoom:100%;float:none" align="left"/>
 

@@ -16,6 +16,18 @@ module.exports = {
         artist: '花之舞',
         url: '/bgm/1.mp3',
         cover: '/bgm/1.png'
+      },
+      {
+        name: '一路生花',
+        artist: '温奕心',
+        url: '/bgm/2.mp3',
+        cover: '/bgm/2.png'
+      },
+      {
+        name: '错位时空',
+        artist: '艾辰',
+        url: '/bgm/3.mp3',
+        cover: '/bgm/3.png'
       }
     ],
     position: {
