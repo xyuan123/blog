@@ -18,6 +18,21 @@ module.exports = {
         cover: '/bgm/1.png'
       },
       {
+        name: '我在那一角落患过伤风',
+        artist: '',
+        url: '/bgm/daling.mp3',
+      },
+      {
+        name: '克罗地亚狂想曲',
+        artist: '马克西姆',
+        url: '/bgm/keluodiya.mp3'
+      },
+      {
+        name: '出阵',
+        artist: '高康梨治',
+        url: '/bgm/chuzhen.mp3'
+      },
+      {
         name: '一路生花',
         artist: '温奕心',
         url: '/bgm/2.mp3',
@@ -28,6 +43,12 @@ module.exports = {
         artist: '艾辰',
         url: '/bgm/3.mp3',
         cover: '/bgm/3.png'
+      },
+      {
+        name: '如愿',
+        artist: '王菲',
+        url: '/bgm/5.mp3',
+        cover: '/bgm/5.png'
       }
     ],
     position: {

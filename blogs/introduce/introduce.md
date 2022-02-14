@@ -42,7 +42,7 @@ sticky: 1
 
 <img src="../../.vuepress/public/introduce/music_cover.png" alt="加载失败" style="zoom: 67%;display:block;float:none" align="left"/>
 
-玩: 游戏现在偶尔还是会玩一下LOL,排位偶尔还是会打一打,只玩男刀和黄鸡了。打上单的话只会混分巨兽。一个郊区白金仔路过︿(￣︶￣)︿
+玩: 游戏现在偶尔还是会玩一下LOL,排位偶尔还是会打一打,只玩男刀和黄鸡了。打上单的话只会混分巨兽。一个郊区白金仔路过︿(￣︶￣)︿,最近迷上了中单送死流老司机,快乐的不行。
 
 <img src="../../.vuepress/public/introduce/lol_rank.png" alt="加载失败" style="zoom: 50%;display:block;float:none" align="left"/>
 
@@ -53,6 +53,12 @@ sticky: 1
 
 
   怎么样,是不是很漂亮。
+
+## 联系方式
+
+如果您对前端也很感兴趣的话,我们可以加个好友,一起交流哦~
+
+<img src="../../.vuepress/public/introduce/concat.jpg" alt="加载失败" style="zoom: 50%;display:block;float:none" align="left"/>
 
 ## 结束语
 
