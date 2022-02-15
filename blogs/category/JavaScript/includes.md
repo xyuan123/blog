@@ -1,3 +1,11 @@
+---
+title: JS之includes函数
+date: 2022-02-13
+tags:
+ - js
+categories:
+ - JavaScript
+---
 `includes`函数是`ES6`新增的方法,是我认为在实际项目中实用性非常强的一个函数。
 
 作用: 

@@ -23,16 +23,6 @@ module.exports = {
         url: '/bgm/daling.mp3',
       },
       {
-        name: '克罗地亚狂想曲',
-        artist: '马克西姆',
-        url: '/bgm/keluodiya.mp3'
-      },
-      {
-        name: '出阵',
-        artist: '高康梨治',
-        url: '/bgm/chuzhen.mp3'
-      },
-      {
         name: '一路生花',
         artist: '温奕心',
         url: '/bgm/2.mp3',

@@ -6,9 +6,7 @@ tags:
 categories:
  - JavaScript
 ---
-## 目录
 
-[[toc]]
 
 ## 数组的concat方法
 

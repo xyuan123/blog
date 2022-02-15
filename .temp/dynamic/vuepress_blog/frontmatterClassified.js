@@ -3,18 +3,6 @@
  */
 export default {
   "tags": {
-    "js": {
-      "key": "js",
-      "scope": "tags",
-      "path": "/tag/js/",
-      "pageKeys": [
-        "v-c324f84a",
-        "v-6319ebfb",
-        "v-46ad39a7",
-        "v-543a3abe",
-        "v-1c09b6fa"
-      ]
-    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
@@ -35,18 +23,32 @@ export default {
         "v-04e1f27b"
       ]
     },
+    "js": {
+      "key": "js",
+      "scope": "tags",
+      "path": "/tag/js/",
+      "pageKeys": [
+        "v-6319ebfb",
+        "v-c324f84a",
+        "v-1b44d80e",
+        "v-543a3abe",
+        "v-46ad39a7",
+        "v-1c09b6fa",
+        "v-34331cbe"
+      ]
+    },
     "Vue": {
       "key": "Vue",
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
-        "v-9e11ec96",
         "v-62f1a805",
-        "v-62e5d1fb",
+        "v-9e11ec96",
         "v-99c196ca",
-        "v-eb3e21ca",
-        "v-dda97aca",
         "v-14e0f813",
+        "v-dda97aca",
+        "v-62e5d1fb",
+        "v-eb3e21ca",
         "v-08f12e1b",
         "v-71d07c7b"
       ]
@@ -59,28 +61,12 @@ export default {
         "v-13ccba1b"
       ]
     },
-    "git": {
-      "key": "git",
-      "scope": "tags",
-      "path": "/tag/git/",
-      "pageKeys": [
-        "v-d084738a"
-      ]
-    },
     "mk": {
       "key": "mk",
       "scope": "tags",
       "path": "/tag/mk/",
       "pageKeys": [
         "v-740468a1"
-      ]
-    },
-    "miniProgram": {
-      "key": "miniProgram",
-      "scope": "tags",
-      "path": "/tag/miniProgram/",
-      "pageKeys": [
-        "v-7dc222fb"
       ]
     },
     "introduce": {
@@ -90,6 +76,22 @@ export default {
       "pageKeys": [
         "v-8cfa1d18"
       ]
+    },
+    "git": {
+      "key": "git",
+      "scope": "tags",
+      "path": "/tag/git/",
+      "pageKeys": [
+        "v-d084738a"
+      ]
+    },
+    "miniProgram": {
+      "key": "miniProgram",
+      "scope": "tags",
+      "path": "/tag/miniProgram/",
+      "pageKeys": [
+        "v-7dc222fb"
+      ]
     }
   },
   "categories": {
@@ -98,11 +100,11 @@ export default {
       "scope": "categories",
       "path": "/categories/ES6/",
       "pageKeys": [
-        "v-c324f84a",
         "v-b413a096",
         "v-cb115a0a",
+        "v-04e1f27b",
         "v-6319ebfb",
-        "v-04e1f27b"
+        "v-c324f84a"
       ]
     },
     "JavaScript": {
@@ -110,9 +112,11 @@ export default {
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-46ad39a7",
+        "v-1b44d80e",
         "v-543a3abe",
-        "v-1c09b6fa"
+        "v-46ad39a7",
+        "v-1c09b6fa",
+        "v-34331cbe"
       ]
     },
     "Vue": {
@@ -120,13 +124,13 @@ export default {
       "scope": "categories",
       "path": "/categories/Vue/",
       "pageKeys": [
-        "v-9e11ec96",
         "v-62f1a805",
-        "v-62e5d1fb",
+        "v-9e11ec96",
         "v-99c196ca",
-        "v-eb3e21ca",
-        "v-dda97aca",
         "v-14e0f813",
+        "v-dda97aca",
+        "v-62e5d1fb",
+        "v-eb3e21ca",
         "v-08f12e1b",
         "v-71d07c7b"
       ]
@@ -139,20 +143,20 @@ export default {
         "v-13ccba1b"
       ]
     },
-    "Git": {
-      "key": "Git",
-      "scope": "categories",
-      "path": "/categories/Git/",
-      "pageKeys": [
-        "v-d084738a"
-      ]
-    },
     "markdown": {
       "key": "markdown",
       "scope": "categories",
       "path": "/categories/markdown/",
       "pageKeys": [
         "v-740468a1"
+      ]
+    },
+    "Git": {
+      "key": "Git",
+      "scope": "categories",
+      "path": "/categories/Git/",
+      "pageKeys": [
+        "v-d084738a"
       ]
     },
     "miniProgram": {
