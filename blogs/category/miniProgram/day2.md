@@ -1,3 +1,11 @@
+---
+title: 小程序学习之路二-事件绑定
+date: 2022-02-13
+tags:
+ - miniProgram
+categories:
+ - miniProgram
+---
 ## 绑定事件
 
 给组件绑定点击事件
@@ -5,7 +13,6 @@
 `index.wxml`代码
 
 ```html
-<!-- index.wxml -->
 <view class="title">{{counter}}</view>
 <button bindtap="onIncreament" size="mini" type="primary">+1</button>
 <button bindtap="onDecreament" size="mini" type="warn">-1</button>

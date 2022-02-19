@@ -17,7 +17,7 @@ sticky: 2
 
 <!-- more -->
 
-
+### 提交暂存区
 
 ```
 git add .
@@ -96,6 +96,16 @@ git log
 git clone 远程仓库地址
 ```
 
+### git查看距离上一次提交到目前你做过的改动
+
+```git
+git status
+// 这个是查看简要的改动信息
+git status -s
+```
+
+
+
 ### git 回到指定版本
 
 1.先git log 查看历史记录
@@ -137,10 +147,12 @@ git push
 
 待补充。。。。。。。。
 
+### vscode插件推荐
+
+推荐一款我个人觉得很好用的`git`插件
+
+<img src="../../../.vuepress/public/git/git_plugin.png" alt="加载失败" style="zoom: 100%;float:none" align="left"/>
+
 ## 结束语
 
 git命令输完后,没有消息就是好消息(～￣▽￣)～
-
-## 鸡汤时刻
-
-江畔何人初见月,江月何年初照人。

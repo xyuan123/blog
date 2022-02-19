@@ -21,6 +21,13 @@ module.exports = {
         name: '我在那一角落患过伤风',
         artist: '',
         url: '/bgm/daling.mp3',
+        cover: '/bgm/4.png'
+      },
+      {
+        name: '明天会更好',
+        artist: '卓依婷',
+        url: '/bgm/tmorrowBetter.mp3',
+        cover: '/bgm/tommrowBetter.png'
       },
       {
         name: '一路生花',
@@ -80,6 +87,25 @@ module.exports = {
         "text": "首页",
         "link": "/",
         "icon": "reco-home"
+      },
+      {
+        "text": "外链",
+        "icon": "reco-document",
+        "items": [
+         {
+          "text": "ES6",
+          "link": "https://es6.ruanyifeng.com/",
+         },
+         {
+           "text": "toutiao-pc",
+           "link": "https://www.bilibili.com/video/BV1Pq4y1S7jm?spm_id_from=333.999.0.0"
+         },
+         {
+           "text": "尚品汇商城",
+           "link": "https://www.bilibili.com/video/BV1Vf4y1T7bw?from=search&seid=5678779092951775180&spm_id_from=333.337.0.0"
+         }
+
+        ]
       },
       {
         "text": "时间轴",
