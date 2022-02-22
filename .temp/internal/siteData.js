@@ -23,6 +23,160 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "ES6学习之路(七) 类",
+      "frontmatter": {
+        "title": "ES6学习之路(七) 类",
+        "date": "2022-02-21T00:00:00.000Z",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/class.html",
+      "relativePath": "blogs/category/ES6/class.md",
+      "key": "v-6d1ffaaa",
+      "path": "/blogs/category/ES6/class.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "老版新版对比",
+          "slug": "老版新版对比"
+        },
+        {
+          "level": 2,
+          "title": "类的方法",
+          "slug": "类的方法"
+        },
+        {
+          "level": 2,
+          "title": "遍历问题",
+          "slug": "遍历问题"
+        },
+        {
+          "level": 2,
+          "title": "类里面的constructor方法",
+          "slug": "类里面的constructor方法"
+        },
+        {
+          "level": 2,
+          "title": "类的实例",
+          "slug": "类的实例"
+        },
+        {
+          "level": 2,
+          "title": "好文推荐",
+          "slug": "好文推荐"
+        },
+        {
+          "level": 2,
+          "title": "取值函数(get)与存值函数(set)",
+          "slug": "取值函数-get-与存值函数-set"
+        },
+        {
+          "level": 2,
+          "title": "属性表达式",
+          "slug": "属性表达式"
+        },
+        {
+          "level": 2,
+          "title": "name属性",
+          "slug": "name属性"
+        },
+        {
+          "level": 2,
+          "title": "静态方法",
+          "slug": "静态方法"
+        },
+        {
+          "level": 2,
+          "title": "new.target",
+          "slug": "new-target"
+        },
+        {
+          "level": 2,
+          "title": "参考文档",
+          "slug": "参考文档"
+        },
+        {
+          "level": 2,
+          "title": "博客",
+          "slug": "博客"
+        }
+      ],
+      "lastUpdated": "2/19/2022, 11:05:19 PM"
+    },
+    {
+      "title": "ES6学习之路(八) 类的继承",
+      "frontmatter": {
+        "title": "ES6学习之路(八) 类的继承",
+        "date": "2022-02-22T00:00:00.000Z",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/classExtend.html",
+      "relativePath": "blogs/category/ES6/classExtend.md",
+      "key": "v-282efa37",
+      "path": "/blogs/category/ES6/classExtend.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "简介",
+          "slug": "简介"
+        },
+        {
+          "level": 2,
+          "title": "继承原则",
+          "slug": "继承原则"
+        },
+        {
+          "level": 2,
+          "title": "获取父类是谁",
+          "slug": "获取父类是谁"
+        },
+        {
+          "level": 2,
+          "title": "Super关键字",
+          "slug": "super关键字"
+        },
+        {
+          "level": 3,
+          "title": "1.化身为函数",
+          "slug": "_1-化身为函数"
+        },
+        {
+          "level": 3,
+          "title": "2.化身为对象",
+          "slug": "_2-化身为对象"
+        },
+        {
+          "level": 3,
+          "title": "3.注意点",
+          "slug": "_3-注意点"
+        },
+        {
+          "level": 2,
+          "title": "博客",
+          "slug": "博客"
+        },
+        {
+          "level": 2,
+          "title": "结束语",
+          "slug": "结束语"
+        }
+      ]
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -127,63 +281,97 @@ export const siteData = {
       "lastUpdated": "2/10/2022, 9:33:49 PM"
     },
     {
-      "title": "ES6学习之路(七) 类",
+      "title": "ES6学习之路(四) 运算符的扩展",
       "frontmatter": {
-        "title": "ES6学习之路(七) 类",
+        "title": "ES6学习之路(四) 运算符的扩展",
         "date": "2022-02-10T00:00:00.000Z",
         "tags": [
-          "js"
+          "ES6",
+          "JavaScript"
         ],
         "categories": [
           "ES6"
         ]
       },
-      "regularPath": "/blogs/category/ES6/class.html",
-      "relativePath": "blogs/category/ES6/class.md",
-      "key": "v-6d1ffaaa",
-      "path": "/blogs/category/ES6/class.html",
+      "regularPath": "/blogs/category/ES6/operator.html",
+      "relativePath": "blogs/category/ES6/operator.md",
+      "key": "v-04e1f27b",
+      "path": "/blogs/category/ES6/operator.html",
       "headers": [
         {
           "level": 2,
-          "title": "前言",
-          "slug": "前言"
+          "title": "指数运算符",
+          "slug": "指数运算符"
         },
         {
           "level": 2,
-          "title": "什么是类",
-          "slug": "什么是类"
+          "title": "链判断运算符",
+          "slug": "链判断运算符"
+        },
+        {
+          "level": 3,
+          "title": "运行函数",
+          "slug": "运行函数"
         },
         {
           "level": 2,
-          "title": "类的方法",
-          "slug": "类的方法"
+          "title": "短路机制",
+          "slug": "短路机制"
         },
         {
           "level": 2,
-          "title": "遍历问题",
-          "slug": "遍历问题"
+          "title": "NULL判断运算符",
+          "slug": "null判断运算符"
         },
         {
-          "level": 2,
-          "title": "类里面的constructor方法",
-          "slug": "类里面的constructor方法"
-        },
-        {
-          "level": 2,
-          "title": "类的实例",
-          "slug": "类的实例"
-        },
-        {
-          "level": 2,
-          "title": "好文推荐",
-          "slug": "好文推荐"
-        },
-        {
-          "level": 2,
-          "title": "原型对象上添加方法",
-          "slug": "原型对象上添加方法"
+          "level": 3,
+          "title": "经典的设置默认值方法",
+          "slug": "经典的设置默认值方法"
         }
-      ]
+      ],
+      "lastUpdated": "2/10/2022, 9:33:49 PM"
+    },
+    {
+      "title": "ES6学习之路(一) Generator函数",
+      "frontmatter": {
+        "title": "ES6学习之路(一) Generator函数",
+        "date": "2022-01-5",
+        "tags": [
+          "ES6",
+          "JavaScript"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/generator.html",
+      "relativePath": "blogs/category/ES6/generator.md",
+      "key": "v-b413a096",
+      "path": "/blogs/category/ES6/generator.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 3,
+          "title": "主角",
+          "slug": "主角"
+        },
+        {
+          "level": 3,
+          "title": "next函数传参",
+          "slug": "next函数传参"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于ES6generator函数的知识o(￣▽￣)ｄ</p>\n</div>",
+      "lastUpdated": "1/24/2022, 10:21:23 PM"
     },
     {
       "title": "ES6学习之路(三) 解构赋值",
@@ -292,227 +480,28 @@ export const siteData = {
       "lastUpdated": "2/10/2022, 9:33:49 PM"
     },
     {
-      "title": "ES6学习之路(一) Generator函数",
-      "frontmatter": {
-        "title": "ES6学习之路(一) Generator函数",
-        "date": "2022-01-5",
-        "tags": [
-          "ES6",
-          "JavaScript"
-        ],
-        "categories": [
-          "ES6"
-        ]
-      },
-      "regularPath": "/blogs/category/ES6/generator.html",
-      "relativePath": "blogs/category/ES6/generator.md",
-      "key": "v-b413a096",
-      "path": "/blogs/category/ES6/generator.html",
+      "frontmatter": {},
+      "regularPath": "/blogs/category/ES6/promise.html",
+      "relativePath": "blogs/category/ES6/promise.md",
+      "key": "v-7b327136",
+      "path": "/blogs/category/ES6/promise.html",
       "headers": [
         {
           "level": 2,
-          "title": "前奏",
-          "slug": "前奏"
+          "title": "使用Promise封装函数",
+          "slug": "使用promise封装函数"
         },
         {
           "level": 2,
-          "title": "主题",
-          "slug": "主题"
+          "title": "使用Promise.all发送并发请求",
+          "slug": "使用promise-all发送并发请求"
         },
         {
-          "level": 3,
-          "title": "主角",
-          "slug": "主角"
-        },
-        {
-          "level": 3,
-          "title": "next函数传参",
-          "slug": "next函数传参"
+          "level": 2,
+          "title": "Promise.race()获取最先返回的值",
+          "slug": "promise-race-获取最先返回的值"
         }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于ES6generator函数的知识o(￣▽￣)ｄ</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
-    },
-    {
-      "title": "ES6学习之路(四) 运算符的扩展",
-      "frontmatter": {
-        "title": "ES6学习之路(四) 运算符的扩展",
-        "date": "2022-02-10T00:00:00.000Z",
-        "tags": [
-          "ES6",
-          "JavaScript"
-        ],
-        "categories": [
-          "ES6"
-        ]
-      },
-      "regularPath": "/blogs/category/ES6/operator.html",
-      "relativePath": "blogs/category/ES6/operator.md",
-      "key": "v-04e1f27b",
-      "path": "/blogs/category/ES6/operator.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "指数运算符",
-          "slug": "指数运算符"
-        },
-        {
-          "level": 2,
-          "title": "链判断运算符",
-          "slug": "链判断运算符"
-        },
-        {
-          "level": 3,
-          "title": "运行函数",
-          "slug": "运行函数"
-        },
-        {
-          "level": 2,
-          "title": "短路机制",
-          "slug": "短路机制"
-        },
-        {
-          "level": 2,
-          "title": "NULL判断运算符",
-          "slug": "null判断运算符"
-        },
-        {
-          "level": 3,
-          "title": "经典的设置默认值方法",
-          "slug": "经典的设置默认值方法"
-        }
-      ],
-      "lastUpdated": "2/10/2022, 9:33:49 PM"
-    },
-    {
-      "title": "JS之concat函数",
-      "frontmatter": {
-        "title": "JS之concat函数",
-        "date": "2022-02-13T00:00:00.000Z",
-        "tags": [
-          "js"
-        ],
-        "categories": [
-          "JavaScript"
-        ]
-      },
-      "regularPath": "/blogs/category/JavaScript/concat.html",
-      "relativePath": "blogs/category/JavaScript/concat.md",
-      "key": "v-46ad39a7",
-      "path": "/blogs/category/JavaScript/concat.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "数组的concat方法",
-          "slug": "数组的concat方法"
-        },
-        {
-          "level": 3,
-          "title": "1.连接2个数组",
-          "slug": "_1-连接2个数组"
-        },
-        {
-          "level": 3,
-          "title": "2.连接3个数组",
-          "slug": "_2-连接3个数组"
-        },
-        {
-          "level": 3,
-          "title": "3.连接值到数组",
-          "slug": "_3-连接值到数组"
-        },
-        {
-          "level": 3,
-          "title": "有趣的知识",
-          "slug": "有趣的知识"
-        },
-        {
-          "level": 3,
-          "title": "Symbol.isConcatSpreadable",
-          "slug": "symbol-isconcatspreadable"
-        },
-        {
-          "level": 2,
-          "title": "字符串的concat方法",
-          "slug": "字符串的concat方法"
-        }
-      ],
-      "lastUpdated": "2/15/2022, 9:23:03 PM"
-    },
-    {
-      "title": "ES6学习之路(五) js的Symbol类型",
-      "frontmatter": {
-        "title": "ES6学习之路(五) js的Symbol类型",
-        "date": "2022-02-10T00:00:00.000Z",
-        "tags": [
-          "js"
-        ],
-        "categories": [
-          "ES6"
-        ]
-      },
-      "regularPath": "/blogs/category/ES6/symbol.html",
-      "relativePath": "blogs/category/ES6/symbol.md",
-      "key": "v-6319ebfb",
-      "path": "/blogs/category/ES6/symbol.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "简介",
-          "slug": "简介"
-        },
-        {
-          "level": 2,
-          "title": "获取Symbol的描述",
-          "slug": "获取symbol的描述"
-        },
-        {
-          "level": 2,
-          "title": "消除魔术字符串",
-          "slug": "消除魔术字符串"
-        },
-        {
-          "level": 2,
-          "title": "Object.getOwnPropertySymbols()方法获取symbol属性数组",
-          "slug": "object-getownpropertysymbols-方法获取symbol属性数组"
-        },
-        {
-          "level": 2,
-          "title": "感慨时间",
-          "slug": "感慨时间"
-        },
-        {
-          "level": 2,
-          "title": "Symbol.for(), Symbol.keyfor()方法",
-          "slug": "symbol-for-symbol-keyfor-方法"
-        },
-        {
-          "level": 3,
-          "title": "Symbol.for()",
-          "slug": "symbol-for"
-        },
-        {
-          "level": 3,
-          "title": "Symbol.keyfor()",
-          "slug": "symbol-keyfor"
-        },
-        {
-          "level": 2,
-          "title": "内置的Symbol值",
-          "slug": "内置的symbol值"
-        },
-        {
-          "level": 3,
-          "title": "1.Symbol.hasInstance",
-          "slug": "_1-symbol-hasinstance"
-        },
-        {
-          "level": 3,
-          "title": "2.Symbol.isConcatSpreadable",
-          "slug": "_2-symbol-isconcatspreadable"
-        }
-      ],
-      "lastUpdated": "2/14/2022, 9:57:12 PM"
+      ]
     },
     {
       "title": "ES6学习之路(六) Set&Map数据结构",
@@ -607,7 +596,7 @@ export const siteData = {
           "slug": "博客"
         }
       ],
-      "lastUpdated": "2/15/2022, 9:23:03 PM"
+      "lastUpdated": "2/19/2022, 11:05:19 PM"
     },
     {
       "title": "JS之includes函数",
@@ -643,6 +632,81 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2/15/2022, 9:23:03 PM"
+    },
+    {
+      "title": "JS之concat函数",
+      "frontmatter": {
+        "title": "JS之concat函数",
+        "date": "2022-02-13T00:00:00.000Z",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blogs/category/JavaScript/concat.html",
+      "relativePath": "blogs/category/JavaScript/concat.md",
+      "key": "v-46ad39a7",
+      "path": "/blogs/category/JavaScript/concat.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "数组的concat方法",
+          "slug": "数组的concat方法"
+        },
+        {
+          "level": 3,
+          "title": "1.连接2个数组",
+          "slug": "_1-连接2个数组"
+        },
+        {
+          "level": 3,
+          "title": "2.连接3个数组",
+          "slug": "_2-连接3个数组"
+        },
+        {
+          "level": 3,
+          "title": "3.连接值到数组",
+          "slug": "_3-连接值到数组"
+        },
+        {
+          "level": 3,
+          "title": "有趣的知识",
+          "slug": "有趣的知识"
+        },
+        {
+          "level": 3,
+          "title": "Symbol.isConcatSpreadable",
+          "slug": "symbol-isconcatspreadable"
+        },
+        {
+          "level": 2,
+          "title": "字符串的concat方法",
+          "slug": "字符串的concat方法"
+        }
+      ],
+      "lastUpdated": "2/15/2022, 9:23:03 PM"
+    },
+    {
+      "title": "问题描述",
+      "frontmatter": {},
+      "regularPath": "/blogs/category/JavaScript/removeListener.html",
+      "relativePath": "blogs/category/JavaScript/removeListener.md",
+      "key": "v-87e791c2",
+      "path": "/blogs/category/JavaScript/removeListener.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "问题描述",
+          "slug": "问题描述"
+        },
+        {
+          "level": 2,
+          "title": "解决方案",
+          "slug": "解决方案"
+        }
+      ]
     },
     {
       "title": "JS之reduce函数",
@@ -716,6 +780,131 @@ export const siteData = {
       "lastUpdated": "2/8/2022, 11:10:03 AM"
     },
     {
+      "title": "ES6学习之路(五) js的Symbol类型",
+      "frontmatter": {
+        "title": "ES6学习之路(五) js的Symbol类型",
+        "date": "2022-02-10T00:00:00.000Z",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "ES6"
+        ]
+      },
+      "regularPath": "/blogs/category/ES6/symbol.html",
+      "relativePath": "blogs/category/ES6/symbol.md",
+      "key": "v-6319ebfb",
+      "path": "/blogs/category/ES6/symbol.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "简介",
+          "slug": "简介"
+        },
+        {
+          "level": 2,
+          "title": "获取Symbol的描述",
+          "slug": "获取symbol的描述"
+        },
+        {
+          "level": 2,
+          "title": "消除魔术字符串",
+          "slug": "消除魔术字符串"
+        },
+        {
+          "level": 2,
+          "title": "Object.getOwnPropertySymbols()方法获取symbol属性数组",
+          "slug": "object-getownpropertysymbols-方法获取symbol属性数组"
+        },
+        {
+          "level": 2,
+          "title": "感慨时间",
+          "slug": "感慨时间"
+        },
+        {
+          "level": 2,
+          "title": "Symbol.for(), Symbol.keyfor()方法",
+          "slug": "symbol-for-symbol-keyfor-方法"
+        },
+        {
+          "level": 3,
+          "title": "Symbol.for()",
+          "slug": "symbol-for"
+        },
+        {
+          "level": 3,
+          "title": "Symbol.keyfor()",
+          "slug": "symbol-keyfor"
+        },
+        {
+          "level": 2,
+          "title": "内置的Symbol值",
+          "slug": "内置的symbol值"
+        },
+        {
+          "level": 3,
+          "title": "1.Symbol.hasInstance",
+          "slug": "_1-symbol-hasinstance"
+        },
+        {
+          "level": 3,
+          "title": "2.Symbol.isConcatSpreadable",
+          "slug": "_2-symbol-isconcatspreadable"
+        }
+      ],
+      "lastUpdated": "2/14/2022, 9:57:12 PM"
+    },
+    {
+      "title": "JS之split和join函数",
+      "frontmatter": {
+        "title": "JS之split和join函数",
+        "date": "2022-02-015",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blogs/category/JavaScript/splitJoin.html",
+      "relativePath": "blogs/category/JavaScript/splitJoin.md",
+      "key": "v-34331cbe",
+      "path": "/blogs/category/JavaScript/splitJoin.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Join方法",
+          "slug": "join方法"
+        },
+        {
+          "level": 3,
+          "title": "示例",
+          "slug": "示例"
+        },
+        {
+          "level": 3,
+          "title": "连接类数组对象",
+          "slug": "连接类数组对象"
+        },
+        {
+          "level": 2,
+          "title": "Split",
+          "slug": "split"
+        },
+        {
+          "level": 2,
+          "title": "示例",
+          "slug": "示例-2"
+        },
+        {
+          "level": 3,
+          "title": "结束语",
+          "slug": "结束语"
+        }
+      ],
+      "lastUpdated": "2/15/2022, 9:23:03 PM"
+    },
+    {
       "title": "JS之splice和slice函数",
       "frontmatter": {
         "title": "JS之splice和slice函数",
@@ -787,56 +976,6 @@ export const siteData = {
       "lastUpdated": "2/8/2022, 11:10:03 AM"
     },
     {
-      "title": "JS之split和join函数",
-      "frontmatter": {
-        "title": "JS之split和join函数",
-        "date": "2022-02-015",
-        "tags": [
-          "js"
-        ],
-        "categories": [
-          "JavaScript"
-        ]
-      },
-      "regularPath": "/blogs/category/JavaScript/splitJoin.html",
-      "relativePath": "blogs/category/JavaScript/splitJoin.md",
-      "key": "v-34331cbe",
-      "path": "/blogs/category/JavaScript/splitJoin.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Join方法",
-          "slug": "join方法"
-        },
-        {
-          "level": 3,
-          "title": "示例",
-          "slug": "示例"
-        },
-        {
-          "level": 3,
-          "title": "连接类数组对象",
-          "slug": "连接类数组对象"
-        },
-        {
-          "level": 2,
-          "title": "Split",
-          "slug": "split"
-        },
-        {
-          "level": 2,
-          "title": "示例",
-          "slug": "示例-2"
-        },
-        {
-          "level": 3,
-          "title": "结束语",
-          "slug": "结束语"
-        }
-      ],
-      "lastUpdated": "2/15/2022, 9:23:03 PM"
-    },
-    {
       "title": "Vue中使用normalize.css",
       "frontmatter": {
         "title": "Vue中使用normalize.css",
@@ -860,6 +999,91 @@ export const siteData = {
         }
       ],
       "lastUpdated": "2/9/2022, 10:17:27 AM"
+    },
+    {
+      "title": "原生js实现放大镜效果",
+      "frontmatter": {
+        "title": "原生js实现放大镜效果",
+        "date": "2022-02-20T00:00:00.000Z",
+        "tags": [
+          "js"
+        ],
+        "categories": [
+          "JavaScript"
+        ]
+      },
+      "regularPath": "/blogs/category/JavaScript/zoom.html",
+      "relativePath": "blogs/category/JavaScript/zoom.md",
+      "key": "v-0a05322e",
+      "path": "/blogs/category/JavaScript/zoom.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "效果图",
+          "slug": "效果图"
+        },
+        {
+          "level": 2,
+          "title": "设计思路",
+          "slug": "设计思路"
+        },
+        {
+          "level": 3,
+          "title": "基本架子",
+          "slug": "基本架子"
+        },
+        {
+          "level": 3,
+          "title": "蒙版",
+          "slug": "蒙版"
+        },
+        {
+          "level": 3,
+          "title": "放大效果图",
+          "slug": "放大效果图"
+        },
+        {
+          "level": 2,
+          "title": "逻辑设计",
+          "slug": "逻辑设计"
+        },
+        {
+          "level": 3,
+          "title": "蒙版跟放大的图肯定要先隐藏",
+          "slug": "蒙版跟放大的图肯定要先隐藏"
+        },
+        {
+          "level": 3,
+          "title": "鼠标移入图片显示蒙版",
+          "slug": "鼠标移入图片显示蒙版"
+        },
+        {
+          "level": 3,
+          "title": "鼠标移动蒙版跟着移动",
+          "slug": "鼠标移动蒙版跟着移动"
+        },
+        {
+          "level": 2,
+          "title": "处理边界情况",
+          "slug": "处理边界情况"
+        },
+        {
+          "level": 2,
+          "title": "大图移动",
+          "slug": "大图移动"
+        },
+        {
+          "level": 2,
+          "title": "小优化",
+          "slug": "小优化"
+        },
+        {
+          "level": 2,
+          "title": "终版",
+          "slug": "终版"
+        }
+      ],
+      "lastUpdated": "2/20/2022, 9:42:22 PM"
     },
     {
       "title": "Vue进阶-Vue的动态组件",
@@ -916,126 +1140,6 @@ export const siteData = {
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目使用动态组件的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
       "lastUpdated": "2/8/2022, 11:10:03 AM"
-    },
-    {
-      "title": "Vue路由传参",
-      "frontmatter": {
-        "title": "Vue路由传参",
-        "date": "2022-01-07T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ]
-      },
-      "regularPath": "/blogs/category/Vue/transferParams.html",
-      "relativePath": "blogs/category/Vue/transferParams.md",
-      "key": "v-eb3e21ca",
-      "path": "/blogs/category/Vue/transferParams.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "前奏",
-          "slug": "前奏"
-        },
-        {
-          "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 2,
-          "title": "Params传参",
-          "slug": "params传参"
-        },
-        {
-          "level": 2,
-          "title": "Query传参",
-          "slug": "query传参"
-        },
-        {
-          "level": 2,
-          "title": "动态路径传参",
-          "slug": "动态路径传参"
-        },
-        {
-          "level": 2,
-          "title": "Props传参",
-          "slug": "props传参"
-        },
-        {
-          "level": 2,
-          "title": "Props对象传参",
-          "slug": "props对象传参"
-        },
-        {
-          "level": 2,
-          "title": "props函数式传参",
-          "slug": "props函数式传参"
-        },
-        {
-          "level": 2,
-          "title": "小细节",
-          "slug": "小细节"
-        },
-        {
-          "level": 2,
-          "title": "鸡汤时刻",
-          "slug": "鸡汤时刻"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中路由传参的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
-      "lastUpdated": "2/8/2022, 11:10:03 AM"
-    },
-    {
-      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
-      "frontmatter": {
-        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
-        "date": "2022-01-24T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ]
-      },
-      "regularPath": "/blogs/category/Vue/vueCss.html",
-      "relativePath": "blogs/category/Vue/vueCss.md",
-      "key": "v-dda97aca",
-      "path": "/blogs/category/Vue/vueCss.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "教程",
-          "slug": "教程"
-        },
-        {
-          "level": 2,
-          "title": "哲学时刻",
-          "slug": "哲学时刻"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
-    },
-    {
-      "title": "v-if和v-for一起使用",
-      "frontmatter": {
-        "title": "v-if和v-for一起使用",
-        "date": "2022-02-13T00:00:00.000Z",
-        "tags": [
-          "Vue"
-        ],
-        "categories": [
-          "Vue"
-        ]
-      },
-      "regularPath": "/blogs/category/Vue/vifvfor.html",
-      "relativePath": "blogs/category/Vue/vifvfor.md",
-      "key": "v-14e0f813",
-      "path": "/blogs/category/Vue/vifvfor.html",
-      "lastUpdated": "2/14/2022, 9:57:12 PM"
     },
     {
       "title": "Vue进阶-vue的依赖和注入",
@@ -1174,22 +1278,21 @@ export const siteData = {
       "lastUpdated": "2/14/2022, 9:57:12 PM"
     },
     {
-      "title": "Vue进阶-在vue项目中封装自己的插件",
+      "title": "Vue路由传参",
       "frontmatter": {
-        "title": "Vue进阶-在vue项目中封装自己的插件",
+        "title": "Vue路由传参",
         "date": "2022-01-07T00:00:00.000Z",
         "tags": [
           "Vue"
         ],
         "categories": [
           "Vue"
-        ],
-        "sticky": 3
+        ]
       },
-      "regularPath": "/blogs/category/Vue/vueInstall.html",
-      "relativePath": "blogs/category/Vue/vueInstall.md",
-      "key": "v-08f12e1b",
-      "path": "/blogs/category/Vue/vueInstall.html",
+      "regularPath": "/blogs/category/Vue/transferParams.html",
+      "relativePath": "blogs/category/Vue/transferParams.md",
+      "key": "v-eb3e21ca",
+      "path": "/blogs/category/Vue/transferParams.html",
       "headers": [
         {
           "level": 2,
@@ -1203,8 +1306,38 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "总结",
-          "slug": "总结"
+          "title": "Params传参",
+          "slug": "params传参"
+        },
+        {
+          "level": 2,
+          "title": "Query传参",
+          "slug": "query传参"
+        },
+        {
+          "level": 2,
+          "title": "动态路径传参",
+          "slug": "动态路径传参"
+        },
+        {
+          "level": 2,
+          "title": "Props传参",
+          "slug": "props传参"
+        },
+        {
+          "level": 2,
+          "title": "Props对象传参",
+          "slug": "props对象传参"
+        },
+        {
+          "level": 2,
+          "title": "props函数式传参",
+          "slug": "props函数式传参"
+        },
+        {
+          "level": 2,
+          "title": "小细节",
+          "slug": "小细节"
         },
         {
           "level": 2,
@@ -1212,53 +1345,57 @@ export const siteData = {
           "slug": "鸡汤时刻"
         }
       ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>",
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中路由传参的文章o(<strong>￣︶￣</strong>)o</p>\n</div>",
       "lastUpdated": "2/8/2022, 11:10:03 AM"
     },
     {
-      "title": "axios在Vue项目中的封装",
+      "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
       "frontmatter": {
-        "title": "axios在Vue项目中的封装",
-        "date": "2022-01-05T00:00:00.000Z",
+        "title": "在Vue项目中配合Animate.css + transition组件实现动画效果,给你的css加点料(add some water to your css)",
+        "date": "2022-01-24T00:00:00.000Z",
         "tags": [
-          "axios"
+          "Vue"
         ],
         "categories": [
-          "axios"
+          "Vue"
         ]
       },
-      "regularPath": "/blogs/category/axios/axiospackaging.html",
-      "relativePath": "blogs/category/axios/axiospackaging.md",
-      "key": "v-13ccba1b",
-      "path": "/blogs/category/axios/axiospackaging.html",
+      "regularPath": "/blogs/category/Vue/vueCss.html",
+      "relativePath": "blogs/category/Vue/vueCss.md",
+      "key": "v-dda97aca",
+      "path": "/blogs/category/Vue/vueCss.html",
       "headers": [
         {
           "level": 2,
-          "title": "前言",
-          "slug": "前言"
+          "title": "教程",
+          "slug": "教程"
         },
         {
           "level": 2,
-          "title": "主题",
-          "slug": "主题"
-        },
-        {
-          "level": 2,
-          "title": "配置代理",
-          "slug": "配置代理"
-        },
-        {
-          "level": 2,
-          "title": "环境变量",
-          "slug": "环境变量"
-        },
-        {
-          "level": 2,
-          "title": "博客",
-          "slug": "博客"
+          "title": "哲学时刻",
+          "slug": "哲学时刻"
         }
       ],
-      "lastUpdated": "2/10/2022, 9:33:49 PM"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>v-show + v-if + transition 组件 + Animate.css 给你的css加点料o(￣︶￣)o</p>\n</div>",
+      "lastUpdated": "1/24/2022, 10:21:23 PM"
+    },
+    {
+      "title": "v-if和v-for一起使用",
+      "frontmatter": {
+        "title": "v-if和v-for一起使用",
+        "date": "2022-02-13T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ]
+      },
+      "regularPath": "/blogs/category/Vue/vifvfor.html",
+      "relativePath": "blogs/category/Vue/vifvfor.md",
+      "key": "v-14e0f813",
+      "path": "/blogs/category/Vue/vifvfor.html",
+      "lastUpdated": "2/14/2022, 9:57:12 PM"
     },
     {
       "title": "Vue进阶之与vuex来一次邂逅",
@@ -1357,6 +1494,48 @@ export const siteData = {
       "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
+      "title": "Vue进阶-在vue项目中封装自己的插件",
+      "frontmatter": {
+        "title": "Vue进阶-在vue项目中封装自己的插件",
+        "date": "2022-01-07T00:00:00.000Z",
+        "tags": [
+          "Vue"
+        ],
+        "categories": [
+          "Vue"
+        ],
+        "sticky": 3
+      },
+      "regularPath": "/blogs/category/Vue/vueInstall.html",
+      "relativePath": "blogs/category/Vue/vueInstall.md",
+      "key": "v-08f12e1b",
+      "path": "/blogs/category/Vue/vueInstall.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前奏",
+          "slug": "前奏"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        },
+        {
+          "level": 2,
+          "title": "鸡汤时刻",
+          "slug": "鸡汤时刻"
+        }
+      ],
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于在Vue项目中开发自定义插件的文章o(<em>￣︶￣</em>)o</p>\n</div>",
+      "lastUpdated": "2/8/2022, 11:10:03 AM"
+    },
+    {
       "title": "Echarts字体自适应",
       "frontmatter": {
         "title": "Echarts字体自适应",
@@ -1388,7 +1567,8 @@ export const siteData = {
           "title": "实际项目使用示例",
           "slug": "实际项目使用示例"
         }
-      ]
+      ],
+      "lastUpdated": "2/19/2022, 11:05:19 PM"
     },
     {
       "title": "git常用命令",
@@ -1475,6 +1655,11 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "git合并分支",
+          "slug": "git合并分支"
+        },
+        {
+          "level": 3,
           "title": "git 回到指定版本",
           "slug": "git-回到指定版本"
         },
@@ -1500,7 +1685,82 @@ export const siteData = {
         }
       ],
       "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>这是一篇关于git常用命令的文档o(￣▽￣)ｄ</p>\n</div>",
-      "lastUpdated": "1/24/2022, 10:21:23 PM"
+      "lastUpdated": "2/19/2022, 11:05:19 PM"
+    },
+    {
+      "title": "小程序学习之路二-事件绑定",
+      "frontmatter": {
+        "title": "小程序学习之路二-事件绑定",
+        "date": "2022-02-13T00:00:00.000Z",
+        "tags": [
+          "miniProgram"
+        ],
+        "categories": [
+          "miniProgram"
+        ]
+      },
+      "regularPath": "/blogs/category/miniProgram/day2.html",
+      "relativePath": "blogs/category/miniProgram/day2.md",
+      "key": "v-0c17269b",
+      "path": "/blogs/category/miniProgram/day2.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "绑定事件",
+          "slug": "绑定事件"
+        },
+        {
+          "level": 2,
+          "title": "总结",
+          "slug": "总结"
+        }
+      ],
+      "lastUpdated": "2/19/2022, 11:05:19 PM"
+    },
+    {
+      "title": "axios在Vue项目中的封装",
+      "frontmatter": {
+        "title": "axios在Vue项目中的封装",
+        "date": "2022-01-05T00:00:00.000Z",
+        "tags": [
+          "axios"
+        ],
+        "categories": [
+          "axios"
+        ]
+      },
+      "regularPath": "/blogs/category/axios/axiospackaging.html",
+      "relativePath": "blogs/category/axios/axiospackaging.md",
+      "key": "v-13ccba1b",
+      "path": "/blogs/category/axios/axiospackaging.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "前言",
+          "slug": "前言"
+        },
+        {
+          "level": 2,
+          "title": "主题",
+          "slug": "主题"
+        },
+        {
+          "level": 2,
+          "title": "配置代理",
+          "slug": "配置代理"
+        },
+        {
+          "level": 2,
+          "title": "环境变量",
+          "slug": "环境变量"
+        },
+        {
+          "level": 2,
+          "title": "博客",
+          "slug": "博客"
+        }
+      ],
+      "lastUpdated": "2/10/2022, 9:33:49 PM"
     },
     {
       "title": "在markdown中生成目录",
@@ -1519,60 +1779,6 @@ export const siteData = {
       "key": "v-740468a1",
       "path": "/blogs/category/markdown/toc.html",
       "lastUpdated": "2/14/2022, 9:57:12 PM"
-    },
-    {
-      "title": "留言板",
-      "frontmatter": {
-        "title": "留言板",
-        "date": "2022-01-14T00:00:00.000Z",
-        "author": "夏鸣予",
-        "publish": false
-      },
-      "regularPath": "/views/others/message.html",
-      "relativePath": "views/others/message.md",
-      "key": "v-36597502",
-      "path": "/views/others/message.html",
-      "lastUpdated": "2/3/2022, 9:57:18 PM"
-    },
-    {
-      "title": "我的个人简介",
-      "frontmatter": {
-        "title": "我的个人简介",
-        "date": "2022-01-14T00:00:00.000Z",
-        "author": "夏鸣予",
-        "tags": [
-          "introduce"
-        ],
-        "sticky": 1
-      },
-      "regularPath": "/blogs/introduce/introduce.html",
-      "relativePath": "blogs/introduce/introduce.md",
-      "key": "v-8cfa1d18",
-      "path": "/blogs/introduce/introduce.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "个人经历与简介",
-          "slug": "个人经历与简介"
-        },
-        {
-          "level": 2,
-          "title": "爱好",
-          "slug": "爱好"
-        },
-        {
-          "level": 2,
-          "title": "联系方式",
-          "slug": "联系方式"
-        },
-        {
-          "level": 2,
-          "title": "结束语",
-          "slug": "结束语"
-        }
-      ],
-      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>赏脸看看作者的个人简介把(￣︶￣)&gt;</p>\n</div>",
-      "lastUpdated": "2/15/2022, 9:23:03 PM"
     },
     {
       "title": "小程序学习之路一-初识小程序",
@@ -1617,13 +1823,13 @@ export const siteData = {
           "slug": "总结"
         }
       ],
-      "lastUpdated": "2/10/2022, 9:33:49 PM"
+      "lastUpdated": "2/19/2022, 11:05:19 PM"
     },
     {
-      "title": "小程序学习之路二-事件绑定",
+      "title": "小程序学习之路三-网络请求的封装、tabbar、目录结构的了解",
       "frontmatter": {
-        "title": "小程序学习之路二-事件绑定",
-        "date": "2022-02-13T00:00:00.000Z",
+        "title": "小程序学习之路三-网络请求的封装、tabbar、目录结构的了解",
+        "date": "2022-02-21T00:00:00.000Z",
         "tags": [
           "miniProgram"
         ],
@@ -1631,23 +1837,139 @@ export const siteData = {
           "miniProgram"
         ]
       },
-      "regularPath": "/blogs/category/miniProgram/day2.html",
-      "relativePath": "blogs/category/miniProgram/day2.md",
-      "key": "v-0c17269b",
-      "path": "/blogs/category/miniProgram/day2.html",
+      "regularPath": "/blogs/category/miniProgram/day3.html",
+      "relativePath": "blogs/category/miniProgram/day3.md",
+      "key": "v-cb27ab8a",
+      "path": "/blogs/category/miniProgram/day3.html"
+    },
+    {
+      "title": "微信开发者工具关联gitee远程仓库",
+      "frontmatter": {},
+      "regularPath": "/blogs/category/miniProgram/gitee.html",
+      "relativePath": "blogs/category/miniProgram/gitee.md",
+      "key": "v-f15136a6",
+      "path": "/blogs/category/miniProgram/gitee.html",
       "headers": [
         {
           "level": 2,
-          "title": "绑定事件",
-          "slug": "绑定事件"
+          "title": "微信开发者工具关联gitee远程仓库",
+          "slug": "微信开发者工具关联gitee远程仓库"
+        },
+        {
+          "level": 3,
+          "title": "1.gitee上新建仓库",
+          "slug": "_1-gitee上新建仓库"
+        },
+        {
+          "level": 3,
+          "title": "2.微信开发者工具上关联",
+          "slug": "_2-微信开发者工具上关联"
+        },
+        {
+          "level": 3,
+          "title": "3.测试是否成功",
+          "slug": "_3-测试是否成功"
+        },
+        {
+          "level": 3,
+          "title": "4.gitee上面检查一下",
+          "slug": "_4-gitee上面检查一下"
         },
         {
           "level": 2,
-          "title": "总结",
-          "slug": "总结"
+          "title": "博客",
+          "slug": "博客"
+        }
+      ]
+    },
+    {
+      "title": "我的个人简介",
+      "frontmatter": {
+        "title": "我的个人简介",
+        "date": "2022-01-14T00:00:00.000Z",
+        "author": "夏鸣予",
+        "tags": [
+          "introduce"
+        ],
+        "sticky": 1
+      },
+      "regularPath": "/blogs/introduce/introduce.html",
+      "relativePath": "blogs/introduce/introduce.md",
+      "key": "v-8cfa1d18",
+      "path": "/blogs/introduce/introduce.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "个人经历与简介",
+          "slug": "个人经历与简介"
+        },
+        {
+          "level": 2,
+          "title": "爱好",
+          "slug": "爱好"
+        },
+        {
+          "level": 2,
+          "title": "联系方式",
+          "slug": "联系方式"
+        },
+        {
+          "level": 2,
+          "title": "结束语",
+          "slug": "结束语"
         }
       ],
-      "lastUpdated": "2/14/2022, 9:57:12 PM"
+      "excerpt": "<div class=\"custom-block tip\"><p class=\"title\"></p><p>赏脸看看作者的个人简介把(￣︶￣)&gt;</p>\n</div>",
+      "lastUpdated": "2/20/2022, 9:42:22 PM"
+    },
+    {
+      "title": "我是如何在小程序中封装网络请求的",
+      "frontmatter": {},
+      "regularPath": "/blogs/category/miniProgram/request.html",
+      "relativePath": "blogs/category/miniProgram/request.md",
+      "key": "v-404148b3",
+      "path": "/blogs/category/miniProgram/request.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "我是如何在小程序中封装网络请求的",
+          "slug": "我是如何在小程序中封装网络请求的"
+        },
+        {
+          "level": 2,
+          "title": "方法一",
+          "slug": "方法一"
+        },
+        {
+          "level": 3,
+          "title": "新建request.js文件",
+          "slug": "新建request-js文件"
+        },
+        {
+          "level": 3,
+          "title": "新建login.js文件",
+          "slug": "新建login-js文件"
+        },
+        {
+          "level": 3,
+          "title": "login页面使用示例",
+          "slug": "login页面使用示例"
+        }
+      ]
+    },
+    {
+      "title": "留言板",
+      "frontmatter": {
+        "title": "留言板",
+        "date": "2022-01-14T00:00:00.000Z",
+        "author": "夏鸣予",
+        "publish": false
+      },
+      "regularPath": "/views/others/message.html",
+      "relativePath": "views/others/message.md",
+      "key": "v-36597502",
+      "path": "/views/others/message.html",
+      "lastUpdated": "2/3/2022, 9:57:18 PM"
     },
     {
       "frontmatter": {
@@ -1679,6 +2001,15 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "js Tags"
+      },
+      "regularPath": "/tag/js/",
+      "key": "v-e8d86dc8",
+      "path": "/tag/js/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "ES6 Tags"
       },
       "regularPath": "/tag/ES6/",
@@ -1697,29 +2028,11 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "js Tags"
-      },
-      "regularPath": "/tag/js/",
-      "key": "v-e8d86dc8",
-      "path": "/tag/js/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "Vue Tags"
       },
       "regularPath": "/tag/Vue/",
       "key": "v-32475d9a",
       "path": "/tag/Vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "axios Tags"
-      },
-      "regularPath": "/tag/axios/",
-      "key": "v-980194ba",
-      "path": "/tag/axios/"
     },
     {
       "frontmatter": {
@@ -1742,6 +2055,24 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "miniProgram Tags"
+      },
+      "regularPath": "/tag/miniProgram/",
+      "key": "v-28201f4c",
+      "path": "/tag/miniProgram/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "axios Tags"
+      },
+      "regularPath": "/tag/axios/",
+      "key": "v-980194ba",
+      "path": "/tag/axios/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "mk Tags"
       },
       "regularPath": "/tag/mk/",
@@ -1756,15 +2087,6 @@ export const siteData = {
       "regularPath": "/tag/introduce/",
       "key": "v-79a2a91a",
       "path": "/tag/introduce/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "miniProgram Tags"
-      },
-      "regularPath": "/tag/miniProgram/",
-      "key": "v-28201f4c",
-      "path": "/tag/miniProgram/"
     },
     {
       "frontmatter": {
@@ -1796,15 +2118,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
-        "title": "axios Categories"
-      },
-      "regularPath": "/categories/axios/",
-      "key": "v-2383bdd2",
-      "path": "/categories/axios/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
         "title": "Echarts Categories"
       },
       "regularPath": "/categories/Echarts/",
@@ -1823,6 +2136,24 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Category",
+        "title": "miniProgram Categories"
+      },
+      "regularPath": "/categories/miniProgram/",
+      "key": "v-e6d4b880",
+      "path": "/categories/miniProgram/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "axios Categories"
+      },
+      "regularPath": "/categories/axios/",
+      "key": "v-2383bdd2",
+      "path": "/categories/axios/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
         "title": "markdown Categories"
       },
       "regularPath": "/categories/markdown/",
@@ -1831,12 +2162,12 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "miniProgram Categories"
+        "layout": "Layout",
+        "title": "Page 2 - js | Tags"
       },
-      "regularPath": "/categories/miniProgram/",
-      "key": "v-e6d4b880",
-      "path": "/categories/miniProgram/"
+      "regularPath": "/tag/js/page/2/",
+      "key": "v-5bf9d5be",
+      "path": "/tag/js/page/2/"
     }
   ],
   "themeConfig": {
@@ -1848,6 +2179,24 @@ export const siteData = {
         "text": "首页",
         "link": "/",
         "icon": "reco-home"
+      },
+      {
+        "text": "外链",
+        "icon": "reco-document",
+        "items": [
+          {
+            "text": "ES6",
+            "link": "https://es6.ruanyifeng.com/"
+          },
+          {
+            "text": "toutiao-pc",
+            "link": "https://www.bilibili.com/video/BV1Pq4y1S7jm?spm_id_from=333.999.0.0"
+          },
+          {
+            "text": "尚品汇商城",
+            "link": "https://www.bilibili.com/video/BV1Vf4y1T7bw?from=search&seid=5678779092951775180&spm_id_from=333.337.0.0"
+          }
+        ]
       },
       {
         "text": "时间轴",

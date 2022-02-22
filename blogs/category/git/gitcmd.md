@@ -104,6 +104,26 @@ git status
 git status -s
 ```
 
+### git合并分支
+
+比如我们现在有2个分支,一个`master`主分支,一个`login`页的分支,在合并分支之前我们最好先用`git branch`看一下我们处于哪个分支,假设我们在`login`分支,先把`login`分支推上去
+
+```git
+git add .
+git commit -m 'login submit'
+// 远程上没有login分支会自动创建一个
+git push origin login
+```
+
+然后`git checkout master`切换到主分支
+
+```
+// 把login分支跟master分支合并
+git merge login
+// 注意合并了之后不用在提交本地仓库了,直接就可以推上去
+git push origin master
+```
+
 
 
 ### git 回到指定版本

@@ -1,6 +1,6 @@
 ---
 title: ES6学习之路(七) 类
-date: 2022-02-10
+date: 2022-02-21
 tags:
  - js
 categories:
@@ -11,9 +11,31 @@ categories:
 
 终于到了老夫最喜欢的环节,ES6的类。这个学起来就比较有意思了<(￣︶￣)>。
 
-## 什么是类
+## 老版新版对比
 
-该部分内容由我的同事JAVA大佬陈兄撰写
+如果了解过`C++`，或者`java`，类的写法看起来就很舒服了
+
+```js
+    // 老版的构造函数
+  function House(name) {
+    this.name = name
+  }
+  House.prototype.openDoor = () => {
+    console.log('door open')
+  }
+  // ES6类的写法
+  class House {
+    constructor(name) {
+      this.name = name
+    }
+    openDoor () {
+      console.log('door open')
+    }
+  }
+  // 本质上两者都是一样的
+```
+
+
 
 ## 类的方法
 
@@ -102,9 +124,86 @@ categories:
 
 这里推荐一篇知乎上面解释原型和原型链很好的一篇文章[说说原型](https://zhuanlan.zhihu.com/p/35790971)。个人感觉通俗易懂。
 
-## 原型对象上添加方法
+突然感觉有点学不动了,下辈子做后端试试。
 
-我尝试用以下的方式给类添加方法但是失败了,打印发现实例已经没有`prototype`和__proto__属性了,我记得以前有的啊。。。这个问题待补充
+## 取值函数(get)与存值函数(set)
 
+```js
+    class House {
+      set name(name) {
+        console.log(name)
+      }
+      get name() {
+        return '夏鸣予'
+      }
+    }
+    const house = new House()
+    house.name = '哎呀呀' // 哎呀呀
+    console.log(house.name) // 夏鸣予
+```
 
+我把`get`,与`set`理解为修饰符,比如`name`属性被`get`和`set`修饰后,你给`name`赋值,那就会调用`set`修饰的`name`函数,你取`name`的值那就会调用`get`调用的`name`函数
 
+## 属性表达式
+
+其实吧,通俗的理解,我认为就是把本来应该是字符串的key变成了变量
+
+示例:
+
+```js
+    let demo = 'demo111'
+    class House {
+      set name(name) {
+        console.log(name)
+      }
+      get name() {
+        return '夏鸣予'
+      }
+      [demo]() {
+        console.log('hello world') // hello world
+      }
+    }
+    const house = new House() 
+    house[demo]()
+```
+
+我觉得这个地方还是有点小重要,因为学了`Symbol`类型就知道了。
+
+## name属性
+
+```js
+    class House {
+    }
+    console.log(House.name) // House
+```
+
+## 静态方法
+
+类中的方法,用`static`去修饰,它就是一个静态方法,静态方法只能被类本身调用
+
+```js
+    class House {
+      static foo() {
+        console.log(111)
+      }
+    }
+    const house = new House()
+    House.foo()
+    house.foo() // Uncaught TypeError: house.foo is not a function
+```
+
+静态方法中的`this`指向这个类本身
+
+## new.target
+
+待补充...
+
+学吐了。。。。
+
+## 参考文档
+
+[[ECMAScript 6 入门](https://es6.ruanyifeng.com/)](https://es6.ruanyifeng.com/#docs/class#%E7%A7%81%E6%9C%89%E6%96%B9%E6%B3%95%E5%92%8C%E7%A7%81%E6%9C%89%E5%B1%9E%E6%80%A7)
+
+## 博客
+
+欢迎访问我的博客[www.smartxy.cc](http://www.smartxy.cc/)

@@ -3,14 +3,32 @@
  */
 export default {
   "tags": {
+    "js": {
+      "key": "js",
+      "scope": "tags",
+      "path": "/tag/js/",
+      "pageKeys": [
+        "v-6d1ffaaa",
+        "v-282efa37",
+        "v-c324f84a",
+        "v-df4fc68a",
+        "v-1b44d80e",
+        "v-46ad39a7",
+        "v-1c09b6fa",
+        "v-6319ebfb",
+        "v-34331cbe",
+        "v-543a3abe",
+        "v-0a05322e"
+      ]
+    },
     "ES6": {
       "key": "ES6",
       "scope": "tags",
       "path": "/tag/ES6/",
       "pageKeys": [
         "v-cb115a0a",
-        "v-b413a096",
-        "v-04e1f27b"
+        "v-04e1f27b",
+        "v-b413a096"
       ]
     },
     "JavaScript": {
@@ -19,24 +37,8 @@ export default {
       "path": "/tag/JavaScript/",
       "pageKeys": [
         "v-cb115a0a",
-        "v-b413a096",
-        "v-04e1f27b"
-      ]
-    },
-    "js": {
-      "key": "js",
-      "scope": "tags",
-      "path": "/tag/js/",
-      "pageKeys": [
-        "v-6d1ffaaa",
-        "v-c324f84a",
-        "v-46ad39a7",
-        "v-6319ebfb",
-        "v-df4fc68a",
-        "v-1b44d80e",
-        "v-1c09b6fa",
-        "v-543a3abe",
-        "v-34331cbe"
+        "v-04e1f27b",
+        "v-b413a096"
       ]
     },
     "Vue": {
@@ -46,21 +48,13 @@ export default {
       "pageKeys": [
         "v-62f1a805",
         "v-9e11ec96",
+        "v-99c196ca",
+        "v-62e5d1fb",
         "v-eb3e21ca",
         "v-dda97aca",
         "v-14e0f813",
-        "v-99c196ca",
-        "v-62e5d1fb",
-        "v-08f12e1b",
-        "v-71d07c7b"
-      ]
-    },
-    "axios": {
-      "key": "axios",
-      "scope": "tags",
-      "path": "/tag/axios/",
-      "pageKeys": [
-        "v-13ccba1b"
+        "v-71d07c7b",
+        "v-08f12e1b"
       ]
     },
     "echarts": {
@@ -79,6 +73,24 @@ export default {
         "v-d084738a"
       ]
     },
+    "miniProgram": {
+      "key": "miniProgram",
+      "scope": "tags",
+      "path": "/tag/miniProgram/",
+      "pageKeys": [
+        "v-0c17269b",
+        "v-7dc222fb",
+        "v-cb27ab8a"
+      ]
+    },
+    "axios": {
+      "key": "axios",
+      "scope": "tags",
+      "path": "/tag/axios/",
+      "pageKeys": [
+        "v-13ccba1b"
+      ]
+    },
     "mk": {
       "key": "mk",
       "scope": "tags",
@@ -94,15 +106,6 @@ export default {
       "pageKeys": [
         "v-8cfa1d18"
       ]
-    },
-    "miniProgram": {
-      "key": "miniProgram",
-      "scope": "tags",
-      "path": "/tag/miniProgram/",
-      "pageKeys": [
-        "v-7dc222fb",
-        "v-0c17269b"
-      ]
     }
   },
   "categories": {
@@ -111,13 +114,14 @@ export default {
       "scope": "categories",
       "path": "/categories/ES6/",
       "pageKeys": [
-        "v-cb115a0a",
         "v-6d1ffaaa",
-        "v-c324f84a",
-        "v-b413a096",
+        "v-282efa37",
+        "v-cb115a0a",
         "v-04e1f27b",
-        "v-6319ebfb",
-        "v-df4fc68a"
+        "v-b413a096",
+        "v-c324f84a",
+        "v-df4fc68a",
+        "v-6319ebfb"
       ]
     },
     "JavaScript": {
@@ -125,11 +129,12 @@ export default {
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-46ad39a7",
         "v-1b44d80e",
+        "v-46ad39a7",
         "v-1c09b6fa",
+        "v-34331cbe",
         "v-543a3abe",
-        "v-34331cbe"
+        "v-0a05322e"
       ]
     },
     "Vue": {
@@ -139,21 +144,13 @@ export default {
       "pageKeys": [
         "v-62f1a805",
         "v-9e11ec96",
+        "v-99c196ca",
+        "v-62e5d1fb",
         "v-eb3e21ca",
         "v-dda97aca",
         "v-14e0f813",
-        "v-99c196ca",
-        "v-62e5d1fb",
-        "v-08f12e1b",
-        "v-71d07c7b"
-      ]
-    },
-    "axios": {
-      "key": "axios",
-      "scope": "categories",
-      "path": "/categories/axios/",
-      "pageKeys": [
-        "v-13ccba1b"
+        "v-71d07c7b",
+        "v-08f12e1b"
       ]
     },
     "Echarts": {
@@ -172,21 +169,30 @@ export default {
         "v-d084738a"
       ]
     },
+    "miniProgram": {
+      "key": "miniProgram",
+      "scope": "categories",
+      "path": "/categories/miniProgram/",
+      "pageKeys": [
+        "v-0c17269b",
+        "v-7dc222fb",
+        "v-cb27ab8a"
+      ]
+    },
+    "axios": {
+      "key": "axios",
+      "scope": "categories",
+      "path": "/categories/axios/",
+      "pageKeys": [
+        "v-13ccba1b"
+      ]
+    },
     "markdown": {
       "key": "markdown",
       "scope": "categories",
       "path": "/categories/markdown/",
       "pageKeys": [
         "v-740468a1"
-      ]
-    },
-    "miniProgram": {
-      "key": "miniProgram",
-      "scope": "categories",
-      "path": "/categories/miniProgram/",
-      "pageKeys": [
-        "v-7dc222fb",
-        "v-0c17269b"
       ]
     }
   },
