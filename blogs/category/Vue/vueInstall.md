@@ -6,7 +6,6 @@ tags:
  - Vue
 categories:
  - Vue
-sticky: 3
 ---
 
 ::: tip 

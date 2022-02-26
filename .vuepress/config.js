@@ -46,6 +46,18 @@ module.exports = {
         artist: '王菲',
         url: '/bgm/5.mp3',
         cover: '/bgm/5.png'
+      },
+            {
+        name: '活着',
+        artist: '应嘉俐',
+        url: '/bgm/live.mp3',
+        cover: '/bgm/live.png'
+      },
+      {
+        name: '最初的梦想',
+        artist: '范玮琪',
+        url: '/bgm/beginDream.mp3',
+        cover: '/bgm/beginDream.png'
       }
     ],
     position: {

@@ -11,14 +11,17 @@ export default {
         "v-6d1ffaaa",
         "v-282efa37",
         "v-c324f84a",
+        "v-7b327136",
         "v-df4fc68a",
         "v-1b44d80e",
+        "v-6319ebfb",
         "v-46ad39a7",
         "v-1c09b6fa",
-        "v-6319ebfb",
-        "v-34331cbe",
         "v-543a3abe",
-        "v-0a05322e"
+        "v-34331cbe",
+        "v-0a05322e",
+        "v-87e791c2",
+        "v-12396bc1"
       ]
     },
     "ES6": {
@@ -26,9 +29,9 @@ export default {
       "scope": "tags",
       "path": "/tag/ES6/",
       "pageKeys": [
+        "v-b413a096",
         "v-cb115a0a",
-        "v-04e1f27b",
-        "v-b413a096"
+        "v-04e1f27b"
       ]
     },
     "JavaScript": {
@@ -36,9 +39,9 @@ export default {
       "scope": "tags",
       "path": "/tag/JavaScript/",
       "pageKeys": [
+        "v-b413a096",
         "v-cb115a0a",
-        "v-04e1f27b",
-        "v-b413a096"
+        "v-04e1f27b"
       ]
     },
     "Vue": {
@@ -47,40 +50,15 @@ export default {
       "path": "/tag/Vue/",
       "pageKeys": [
         "v-62f1a805",
-        "v-9e11ec96",
-        "v-99c196ca",
         "v-62e5d1fb",
         "v-eb3e21ca",
-        "v-dda97aca",
+        "v-9e11ec96",
         "v-14e0f813",
+        "v-dda97aca",
+        "v-1051298a",
+        "v-99c196ca",
         "v-71d07c7b",
         "v-08f12e1b"
-      ]
-    },
-    "echarts": {
-      "key": "echarts",
-      "scope": "tags",
-      "path": "/tag/echarts/",
-      "pageKeys": [
-        "v-59a7318a"
-      ]
-    },
-    "git": {
-      "key": "git",
-      "scope": "tags",
-      "path": "/tag/git/",
-      "pageKeys": [
-        "v-d084738a"
-      ]
-    },
-    "miniProgram": {
-      "key": "miniProgram",
-      "scope": "tags",
-      "path": "/tag/miniProgram/",
-      "pageKeys": [
-        "v-0c17269b",
-        "v-7dc222fb",
-        "v-cb27ab8a"
       ]
     },
     "axios": {
@@ -97,6 +75,34 @@ export default {
       "path": "/tag/mk/",
       "pageKeys": [
         "v-740468a1"
+      ]
+    },
+    "echarts": {
+      "key": "echarts",
+      "scope": "tags",
+      "path": "/tag/echarts/",
+      "pageKeys": [
+        "v-4a4ab1bb",
+        "v-59a7318a"
+      ]
+    },
+    "git": {
+      "key": "git",
+      "scope": "tags",
+      "path": "/tag/git/",
+      "pageKeys": [
+        "v-d084738a"
+      ]
+    },
+    "miniProgram": {
+      "key": "miniProgram",
+      "scope": "tags",
+      "path": "/tag/miniProgram/",
+      "pageKeys": [
+        "v-cb27ab8a",
+        "v-d9d5d85e",
+        "v-7dc222fb",
+        "v-0c17269b"
       ]
     },
     "introduce": {
@@ -116,10 +122,11 @@ export default {
       "pageKeys": [
         "v-6d1ffaaa",
         "v-282efa37",
-        "v-cb115a0a",
-        "v-04e1f27b",
         "v-b413a096",
         "v-c324f84a",
+        "v-7b327136",
+        "v-cb115a0a",
+        "v-04e1f27b",
         "v-df4fc68a",
         "v-6319ebfb"
       ]
@@ -132,9 +139,11 @@ export default {
         "v-1b44d80e",
         "v-46ad39a7",
         "v-1c09b6fa",
-        "v-34331cbe",
         "v-543a3abe",
-        "v-0a05322e"
+        "v-34331cbe",
+        "v-0a05322e",
+        "v-87e791c2",
+        "v-12396bc1"
       ]
     },
     "Vue": {
@@ -143,40 +152,15 @@ export default {
       "path": "/categories/Vue/",
       "pageKeys": [
         "v-62f1a805",
-        "v-9e11ec96",
-        "v-99c196ca",
         "v-62e5d1fb",
         "v-eb3e21ca",
-        "v-dda97aca",
+        "v-9e11ec96",
         "v-14e0f813",
+        "v-dda97aca",
+        "v-1051298a",
+        "v-99c196ca",
         "v-71d07c7b",
         "v-08f12e1b"
-      ]
-    },
-    "Echarts": {
-      "key": "Echarts",
-      "scope": "categories",
-      "path": "/categories/Echarts/",
-      "pageKeys": [
-        "v-59a7318a"
-      ]
-    },
-    "Git": {
-      "key": "Git",
-      "scope": "categories",
-      "path": "/categories/Git/",
-      "pageKeys": [
-        "v-d084738a"
-      ]
-    },
-    "miniProgram": {
-      "key": "miniProgram",
-      "scope": "categories",
-      "path": "/categories/miniProgram/",
-      "pageKeys": [
-        "v-0c17269b",
-        "v-7dc222fb",
-        "v-cb27ab8a"
       ]
     },
     "axios": {
@@ -193,6 +177,34 @@ export default {
       "path": "/categories/markdown/",
       "pageKeys": [
         "v-740468a1"
+      ]
+    },
+    "Echarts": {
+      "key": "Echarts",
+      "scope": "categories",
+      "path": "/categories/Echarts/",
+      "pageKeys": [
+        "v-4a4ab1bb",
+        "v-59a7318a"
+      ]
+    },
+    "Git": {
+      "key": "Git",
+      "scope": "categories",
+      "path": "/categories/Git/",
+      "pageKeys": [
+        "v-d084738a"
+      ]
+    },
+    "miniProgram": {
+      "key": "miniProgram",
+      "scope": "categories",
+      "path": "/categories/miniProgram/",
+      "pageKeys": [
+        "v-cb27ab8a",
+        "v-d9d5d85e",
+        "v-7dc222fb",
+        "v-0c17269b"
       ]
     }
   },

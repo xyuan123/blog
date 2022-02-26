@@ -1,3 +1,11 @@
+---
+title: removeListener移除事件报错
+date: 2022-02-22
+tags:
+ - js
+categories:
+ - JavaScript
+---
 ## 问题描述
 
 ```html
