@@ -1,5 +1,5 @@
 ---
-title: 恶补js基础第一天
+title: 恶补js基础第一轮
 date: 2022-02-23
 tags:
  - js

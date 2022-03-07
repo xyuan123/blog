@@ -9,19 +9,19 @@ export default {
       "path": "/tag/js/",
       "pageKeys": [
         "v-6d1ffaaa",
-        "v-282efa37",
         "v-c324f84a",
+        "v-7b327136",
+        "v-282efa37",
         "v-df4fc68a",
         "v-6319ebfb",
-        "v-7b327136",
-        "v-1b44d80e",
-        "v-1c09b6fa",
         "v-46ad39a7",
+        "v-1b44d80e",
+        "v-82516e3e",
         "v-12396bc1",
-        "v-87e791c2",
+        "v-1c09b6fa",
         "v-543a3abe",
         "v-34331cbe",
-        "v-82516e3e",
+        "v-87e791c2",
         "v-0a05322e"
       ]
     },
@@ -30,9 +30,9 @@ export default {
       "scope": "tags",
       "path": "/tag/ES6/",
       "pageKeys": [
+        "v-b413a096",
         "v-cb115a0a",
-        "v-04e1f27b",
-        "v-b413a096"
+        "v-04e1f27b"
       ]
     },
     "JavaScript": {
@@ -40,9 +40,9 @@ export default {
       "scope": "tags",
       "path": "/tag/JavaScript/",
       "pageKeys": [
+        "v-b413a096",
         "v-cb115a0a",
-        "v-04e1f27b",
-        "v-b413a096"
+        "v-04e1f27b"
       ]
     },
     "vue": {
@@ -58,16 +58,26 @@ export default {
       "scope": "tags",
       "path": "/tag/Vue/",
       "pageKeys": [
+        "v-33cd5b01",
+        "v-a0480e4a",
         "v-9e11ec96",
         "v-62f1a805",
         "v-62e5d1fb",
         "v-99c196ca",
         "v-14e0f813",
-        "v-dda97aca",
         "v-eb3e21ca",
         "v-08f12e1b",
         "v-1051298a",
+        "v-dda97aca",
         "v-71d07c7b"
+      ]
+    },
+    "HTML": {
+      "key": "HTML",
+      "scope": "tags",
+      "path": "/tag/HTML/",
+      "pageKeys": [
+        "v-a0480e4a"
       ]
     },
     "axios": {
@@ -87,15 +97,21 @@ export default {
         "v-4a4ab1bb"
       ]
     },
-    "miniProgram": {
-      "key": "miniProgram",
+    "mk": {
+      "key": "mk",
       "scope": "tags",
-      "path": "/tag/miniProgram/",
+      "path": "/tag/mk/",
       "pageKeys": [
-        "v-7dc222fb",
-        "v-0c17269b",
-        "v-cb27ab8a",
-        "v-d9d5d85e"
+        "v-740468a1"
+      ]
+    },
+    "css": {
+      "key": "css",
+      "scope": "tags",
+      "path": "/tag/css/",
+      "pageKeys": [
+        "v-4a68c542",
+        "v-2ca72d4e"
       ]
     },
     "git": {
@@ -106,12 +122,15 @@ export default {
         "v-d084738a"
       ]
     },
-    "mk": {
-      "key": "mk",
+    "miniProgram": {
+      "key": "miniProgram",
       "scope": "tags",
-      "path": "/tag/mk/",
+      "path": "/tag/miniProgram/",
       "pageKeys": [
-        "v-740468a1"
+        "v-d9d5d85e",
+        "v-7dc222fb",
+        "v-cb27ab8a",
+        "v-0c17269b"
       ]
     },
     "introduce": {
@@ -130,14 +149,14 @@ export default {
       "path": "/categories/ES6/",
       "pageKeys": [
         "v-6d1ffaaa",
-        "v-282efa37",
         "v-c324f84a",
-        "v-df4fc68a",
+        "v-b413a096",
         "v-cb115a0a",
-        "v-6319ebfb",
         "v-7b327136",
+        "v-282efa37",
         "v-04e1f27b",
-        "v-b413a096"
+        "v-df4fc68a",
+        "v-6319ebfb"
       ]
     },
     "JavaScript": {
@@ -145,14 +164,14 @@ export default {
       "scope": "categories",
       "path": "/categories/JavaScript/",
       "pageKeys": [
-        "v-1b44d80e",
-        "v-1c09b6fa",
         "v-46ad39a7",
+        "v-1b44d80e",
+        "v-82516e3e",
         "v-12396bc1",
-        "v-87e791c2",
+        "v-1c09b6fa",
         "v-543a3abe",
         "v-34331cbe",
-        "v-82516e3e",
+        "v-87e791c2",
         "v-0a05322e"
       ]
     },
@@ -161,16 +180,25 @@ export default {
       "scope": "categories",
       "path": "/categories/Vue/",
       "pageKeys": [
+        "v-33cd5b01",
         "v-9e11ec96",
         "v-62f1a805",
         "v-62e5d1fb",
         "v-99c196ca",
         "v-14e0f813",
-        "v-dda97aca",
         "v-eb3e21ca",
         "v-08f12e1b",
         "v-1051298a",
+        "v-dda97aca",
         "v-71d07c7b"
+      ]
+    },
+    "HTML": {
+      "key": "HTML",
+      "scope": "categories",
+      "path": "/categories/HTML/",
+      "pageKeys": [
+        "v-a0480e4a"
       ]
     },
     "axios": {
@@ -190,15 +218,20 @@ export default {
         "v-4a4ab1bb"
       ]
     },
-    "miniProgram": {
-      "key": "miniProgram",
+    "markdown": {
+      "key": "markdown",
       "scope": "categories",
-      "path": "/categories/miniProgram/",
+      "path": "/categories/markdown/",
       "pageKeys": [
-        "v-7dc222fb",
-        "v-0c17269b",
-        "v-cb27ab8a",
-        "v-d9d5d85e"
+        "v-740468a1"
+      ]
+    },
+    "Css": {
+      "key": "Css",
+      "scope": "categories",
+      "path": "/categories/Css/",
+      "pageKeys": [
+        "v-4a68c542"
       ]
     },
     "Git": {
@@ -209,12 +242,23 @@ export default {
         "v-d084738a"
       ]
     },
-    "markdown": {
-      "key": "markdown",
+    "CSS": {
+      "key": "CSS",
       "scope": "categories",
-      "path": "/categories/markdown/",
+      "path": "/categories/CSS/",
       "pageKeys": [
-        "v-740468a1"
+        "v-2ca72d4e"
+      ]
+    },
+    "miniProgram": {
+      "key": "miniProgram",
+      "scope": "categories",
+      "path": "/categories/miniProgram/",
+      "pageKeys": [
+        "v-d9d5d85e",
+        "v-7dc222fb",
+        "v-cb27ab8a",
+        "v-0c17269b"
       ]
     }
   },

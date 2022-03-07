@@ -113,25 +113,7 @@
               span.style.animation = "0.1s text-out ease-in-out forwards";
               delay += 0.05;
 
-              // 回去停顿功能
-              // if (this.strs[this.currentIndex].hasOwnProperty("stop")) {
-              //   if (this.strs[this.currentIndex].stop instanceof Array) {
-              //     if (
-              //       this.strs[this.currentIndex].stop.includes(
-              //         this.spans.length - i
-              //       )
-              //     ) {
-              //       delay += 0.3;
-              //     }
-              //   } else {
-              //     if (
-              //       this.strs[this.currentIndex].stop ==
-              //       this.spans.length - i
-              //     ) {
-              //       delay += 0.3;
-              //     }
-              //   }
-              // }
+        
 
               span.style.animationDelay = `${delay}s`;
             });
@@ -155,6 +137,7 @@
       },
       clickSpecialEffect() {
         ! function (e, t, a) {
+          e.onclick = null
           function r() {
             for (var e = 0; e < s.length; e++) s[e].alpha <= 0 ? (t.body.removeChild(s[e].el), s.splice(e, 1)) : (s[e]
               .y--, s[e].scale += .004, s[e].alpha -= .013, s[e].el.style.cssText = "left:" + s[e].x + "px;top:" + s[
@@ -172,6 +155,7 @@
           }
 
           function o(e) {
+            console.log(e)
             var a = t.createElement("div");
             a.className = "heart",
               s.push({
