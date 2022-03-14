@@ -41,17 +41,31 @@ module.exports = {
         url: '/bgm/3.mp3',
         cover: '/bgm/3.png'
       },
-      {
+	
+	        {
         name: '如愿',
         artist: '王菲',
         url: '/bgm/5.mp3',
-        cover: '/bgm/5.png'
+        cover: '/bgm/wannatobe.png.png'
       },
-            {
+      {
+        name: 'be what you wanna be',
+        artist: 'Darin',
+        url: '/bgm/wannatobe.mp3',
+        cover: '/bgm/wannatobe.png'
+      },
+       {
         name: '活着',
         artist: '应嘉俐',
         url: '/bgm/live.mp3',
         cover: '/bgm/live.png'
+      },
+      
+      {
+        name: '秋殇别恋(片段)',
+        artist: '麦小兜',
+        url: '/bgm/qiushangbielian.mp3',
+        cover: '/bgm/qsbl.png'
       },
       {
         name: '最初的梦想',
