@@ -1,3 +1,13 @@
+---
+
+title: Vue子父组件传值的一些发现
+date: 2022-03-13
+tags:
+ - Vue
+categories:
+ - Vue
+---
+
 ## 子组件传值
 
 ` this.$emit('get-attr', category1Id, category2Id, category3Id)`

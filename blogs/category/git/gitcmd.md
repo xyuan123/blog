@@ -124,7 +124,11 @@ git merge login
 git push origin master
 ```
 
+### git查看操作日志
 
+```git
+git reflog
+```
 
 ### git 回到指定版本
 

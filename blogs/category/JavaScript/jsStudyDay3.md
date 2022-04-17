@@ -37,7 +37,38 @@ categories:
     new Demo()
 ```
 
-## this关键字
 
-首先可以肯定的是,`this`**肯定**是指向一个对象的。
+
+## Object对象的相关方法
+
+### 1.Object.getPrototypeOf
+
+作用: 获得一个对象的原型
+
+示例
+
+```js
+    class Demo {
+      constructor(name) {
+        this.name = name
+      }
+    }
+    const demo = new Demo('夏鸣予')
+    console.log(Object.getPrototypeOf(demo) === Demo.prototype) //  true
+```
+
+### 2.Object.setPrototypeOf
+
+作用:为一个对象设置原型
+
+```js
+  const parentObj = {
+      a: 1
+    }
+    const childObj = {
+      b: 1
+    }
+    Object.setPrototypeOf(childObj, parentObj) // childObj的原型指向了b
+    console.log(childObj)
+```
 
